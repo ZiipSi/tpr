@@ -143,3 +143,5 @@ Schopnost zahrnout již funkční produkty nebo zkušenosti třetích stran.
 
 # Upozornění
 Tento text slouží jako pomůcka pro prezentující studenty. Jmenovitě pro studenty Petr Zakopal a Jan Hnát. Můžou se zde vyskytovat chyby a jsou to pouze pomůcka k nahlížení při prezentaci. Nejedná se o oficiální vydávanou práci. Všechny informace jsou brány z uvedených zdrojů.
+
+Určité termíny jsou volně přeloženy, aby prezentace nebyla plná anglických slov. Některé nebylo vhodné překládat.
