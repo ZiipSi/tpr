@@ -141,5 +141,5 @@ Schopnost zahrnout již funkční produkty nebo zkušenosti třetích stran.
 ## XM
 + [M. Molhanec, "Extreme manufacturing — Agility to greater productivity and quality," Proceedings of the 2014 37th International Spring Seminar on Electronics Technology, Dresden, Germany, 2014, pp. 164-169, doi: 10.1109/ISSE.2014.6887585.](https://ieeexplore.ieee.org/document/6887585)
 
-# Disclaimer
+# Upozornění
 Tento text slouží jako pomůcka pro prezentující studenty. Jmenovitě pro studenty Petr Zakopal a Jan Hnát. Můžou se zde vyskytovat chyby a jsou to pouze pomůcka k nahlížení při prezentaci. Nejedná se o oficiální vydávanou práci. Všechny informace jsou brány z uvedených zdrojů.
