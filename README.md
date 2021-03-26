@@ -5,3 +5,5 @@ Jedná se o soubory určené výhradně pro prezentaci projektu „Rekonstrukce 
 Zhotovitelé: **Petr Zakopal**, **Jan Hnát**.
 
 Předmět je vyučován na Fakultě elektrotechnické na ČVUT v Praze v letním semestru roku 2021.
+
+[Pracovní soubor PDF dokumentace](/source/tpr.pdf)
