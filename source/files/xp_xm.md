@@ -131,6 +131,8 @@ Schopnost upravení postupu návrhu/výroby pro malé nebo velké cíle.
 ### Partner Patterns
 Schopnost zahrnout již funkční produkty nebo zkušenosti třetích stran.
 
+# Související
+[Prezentace](prezentace_sem.pptx)
 
 # Zdroje
 ## XP
