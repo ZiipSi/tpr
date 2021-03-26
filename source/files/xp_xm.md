@@ -80,7 +80,9 @@ Pokud se začíná v týmu XP zavádět, je vhodné mít trenéra. Většinou se
 Kocept založen na Agility - hbitosti. Nejdříve pouze v SW části ale pak do celkové produkce. Tento projektový rámec je podobný jako XP ve své opakovanosti - iteracích, a incremental development - přírůstcích vývoje. Pevně založen na Scrumu. Staví na 10 základních principech.
 
 Agility approach byl vymyšlen z důvodu problémů/krize ve vývoji software.
+
 **Velmi často přicházeli problémy jako:**
+
 + Cena SW převyšovala rozpočet,
 + Nedodržení deadline,
 + Software byl velmi neefektivní,
@@ -134,7 +136,7 @@ Schopnost upravení postupu návrhu/výroby pro malé nebo velké cíle.
 Schopnost zahrnout již funkční produkty nebo zkušenosti třetích stran.
 
 # Související
-[Prezentace](prezentace_sem.pptx)
+[Prezentace související s textem](prezentace_sem.pptx)
 
 # Zdroje
 ## XP
