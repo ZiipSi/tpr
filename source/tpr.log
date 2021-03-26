@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  26 MAR 2021 18:46
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  26 MAR 2021 18:49
  restricted system commands enabled.
 **tpr.tex
 (./tpr.tex
@@ -3447,7 +3447,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19<./files/gantt_half2.png>] [20] [21]
 
-LaTeX Warning: Empty bibliography on input line 977.
+LaTeX Warning: Empty bibliography on input line 976.
 
 Excluding 'comment' comment. (./tpr.aux)
 
@@ -3479,7 +3479,7 @@ lue_spec, 10 attribute_list, 4 write nodes
 </System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/
 Fonts/Supplemental/Times New Roman.ttf></System/Library/Fonts/Supplemental/Times
  New Roman Bold.ttf>
-Output written on tpr.pdf (25 pages, 705037 bytes).
+Output written on tpr.pdf (25 pages, 705035 bytes).
 
 PDF statistics: 510 PDF objects out of 1000 (max. 8388607)
  459 compressed objects within 5 object streams
