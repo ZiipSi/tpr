@@ -12,6 +12,6 @@ Předmět je vyučován na Fakultě elektrotechnické na ČVUT v Praze v letním
 
 
 #Licence
-1.0 Projektová dokumentace, prezentace a přílohy jsou volně dostupné v průběhu  letního semestru 2021 na webové adrese [ptzk.cz/tpr]{https://ptzk.cz/tpr} a slouží pouze ke studijním účelům. Jakékoliv kopírování a šíření díla bez předchozího souhlasu autorů je zakázáno. Výjimku tvoří citace.
+1.0 Projektová dokumentace, prezentace a přílohy jsou volně dostupné v průběhu  letního semestru 2021 na webové adrese [ptzk.cz/tpr](https://ptzk.cz/tpr) a slouží pouze ke studijním účelům. Jakékoliv kopírování a šíření díla bez předchozího souhlasu autorů je zakázáno. Výjimku tvoří citace.
 
 2.0 Je zakázané jakékoliv kopírování části díla, včetně LaTeX šablony bez předchozího písemného souhlasu Petra Zakopala.
