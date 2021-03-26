@@ -1,0 +1,3488 @@
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  23 MAR 2021 22:24
+ restricted system commands enabled.
+**tpr.tex
+(./tpr.tex
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
+Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/petrzakopal/Library/texlive/
+2020/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-res
+olved path "/usr/local/texlive/2020/texmf-dist/tex/luatex/luaotfload/fontloader-
+2021-01-07.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "/Users/petrzakopal/Library/texlive/
+2020/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-02-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/petrzakopal/Library/tex
+live/2020/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count181
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count182
+\leftroot@=\count183
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count184
+\DOTSCASE@=\count185
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count186
+\c@MaxMatrixCols=\count187
+\dotsspace@=\muskip16
+\c@parentequation=\count188
+\dspbrk@lvl=\count189
+\tag@help=\toks16
+\row@=\count190
+\column@=\count191
+\maxfields@=\count192
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 117.
+\l@nohyphenation=\language3
+\l@german-x-2019-04-04=\language4
+\l@ngerman-x-2019-04-04=\language5
+\l@afrikaans=\language6
+\l@ancientgreek=\language7
+\l@ibycus=\language8
+\l@arabic=\language9
+\l@armenian=\language10
+\l@basque=\language11
+\l@belarusian=\language12
+\l@bulgarian=\language13
+\l@catalan=\language14
+\l@pinyin=\language15
+\l@churchslavonic=\language16
+\l@coptic=\language17
+\l@croatian=\language18
+\l@czech=\language19
+\l@danish=\language20
+\l@dutch=\language21
+\l@ukenglish=\language22
+\l@usenglishmax=\language23
+\l@esperanto=\language24
+\l@estonian=\language25
+\l@ethiopic=\language26
+\l@farsi=\language27
+\l@finnish=\language28
+\l@french=\language29
+\l@friulan=\language30
+\l@galician=\language31
+\l@georgian=\language32
+\l@german=\language33
+\l@ngerman=\language34
+\l@swissgerman=\language35
+\l@greek=\language36
+\l@monogreek=\language37
+\l@hungarian=\language38
+\l@icelandic=\language39
+\l@assamese=\language40
+\l@bengali=\language41
+\l@gujarati=\language42
+\l@hindi=\language43
+\l@kannada=\language44
+\l@malayalam=\language45
+\l@marathi=\language46
+\l@oriya=\language47
+\l@pali=\language48
+\l@panjabi=\language49
+\l@tamil=\language50
+\l@telugu=\language51
+\l@indonesian=\language52
+\l@interlingua=\language53
+\l@irish=\language54
+\l@italian=\language55
+\l@kurmanji=\language56
+\l@classiclatin=\language57
+\l@latin=\language58
+\l@liturgicallatin=\language59
+\l@latvian=\language60
+\l@lithuanian=\language61
+\l@macedonian=\language62
+\l@mongolian=\language63
+\l@mongolianlmc=\language64
+\l@bokmal=\language65
+\l@nynorsk=\language66
+\l@occitan=\language67
+\l@piedmontese=\language68
+\l@polish=\language69
+\l@portuguese=\language70
+\l@romanian=\language71
+\l@romansh=\language72
+\l@russian=\language73
+\l@sanskrit=\language74
+\l@serbian=\language75
+\l@serbianc=\language76
+\l@slovak=\language77
+\l@slovenian=\language78
+\l@spanish=\language79
+\l@swedish=\language80
+\l@thai=\language81
+\l@turkish=\language82
+\l@turkmen=\language83
+\l@ukrainian=\language84
+\l@uppersorbian=\language85
+\l@welsh=\language86
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
+)
+\babel@savecnt=\count193
+\U@D=\dimen150
+\l@babelnohyphens=\language87
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-czech/czech.ldf
+Language: czech 2008/07/06 v3.1a Czech support from the babel system
+Package babel Info: Making " an active character on input line 172.
+\cs@wordlen=\count194
+Package babel Info: Making - an active character on input line 226.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-cs.
+tex UTF-8 Czech hyphenation patterns
+(/usr/local/texlive/2020/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-cs.
+tex)))) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<t1.cmap>>)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count195
+\multirow@dima=\skip53
+\bigstrutjot=\dimen151
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count196
+\float@exts=\toks23
+\float@box=\box49
+\@float@everytoks=\toks24
+\@floatcapt=\box50
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-07 v7.00h Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks25
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-07 v7.00h Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-07 v7.00h Hyperref: patches for babel lan
+guages
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count199
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-07 v7.00h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4178.
+Package hyperref Info: Link nesting OFF on input line 4183.
+Package hyperref Info: Hyper index ON on input line 4186.
+Package hyperref Info: Plain pages OFF on input line 4193.
+Package hyperref Info: Backreferencing OFF on input line 4198.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4431.
+\c@Hy@tempcnt=\count266
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4790.
+\XeTeXLinkMargin=\dimen153
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+))
+\Fld@menulength=\count267
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6061.
+Package hyperref Info: Link nesting OFF on input line 6066.
+Package hyperref Info: Hyper index ON on input line 6069.
+Package hyperref Info: backreferencing OFF on input line 6076.
+Package hyperref Info: Link coloring OFF on input line 6081.
+Package hyperref Info: Link coloring with OCG OFF on input line 6086.
+Package hyperref Info: PDF/A mode OFF on input line 6091.
+LaTeX Info: Redefining \ref on input line 6131.
+LaTeX Info: Redefining \pageref on input line 6135.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packag
+e
+with kernel methods
+)
+\Hy@abspage=\count268
+\c@Item=\count269
+\c@Hfootnote=\count270
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2021-02-07 v7.00h Hyperref driver for luaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+
+with kernel methods
+)
+\Fld@listcount=\count271
+\c@bookmark@seq@number=\count272
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+6.
+)
+\Hy@SectionHShift=\skip54
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
+
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 22.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2021-02-06 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count273
+\l__pdf_internal_box=\box51
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count274
+\l__fontspec_language_int=\count275
+\l__fontspec_strnum_int=\count276
+\l__fontspec_tmp_int=\count277
+\l__fontspec_tmpa_int=\count278
+\l__fontspec_tmpb_int=\count279
+\l__fontspec_tmpc_int=\count280
+\l__fontspec_em_int=\count281
+\l__fontspec_emdef_int=\count282
+\l__fontspec_strong_int=\count283
+\l__fontspec_strongdef_int=\count284
+\l__fontspec_tmpa_dim=\dimen156
+\l__fontspec_tmpb_dim=\dimen157
+\l__fontspec_tmpc_dim=\dimen158
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from /Users/petrzakopal/Library/texlive
+/2020/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Could not resolve font "TimesNewRomanBold/I" (it
+(fontspec)             probably doesn't exist).
+
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,BoldFont={* Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+tl
+ig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRomanBold:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;+
+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordS
+pace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;"
+
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;"
+
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt;
+"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+)
+\csq@reset=\count286
+\csq@gtype=\count287
+\csq@glevel=\count288
+\csq@qlevel=\count289
+\csq@maxlvl=\count290
+\csq@tshold=\count291
+\csq@ltx@everypar=\toks26
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count292
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count293
+\c@listtotal=\count294
+\c@listcount=\count295
+\c@liststart=\count296
+\c@liststop=\count297
+\c@citecount=\count298
+\c@citetotal=\count299
+\c@multicitecount=\count300
+\c@multicitetotal=\count301
+\c@instcount=\count302
+\c@maxnames=\count303
+\c@minnames=\count304
+\c@maxitems=\count305
+\c@minitems=\count306
+\c@citecounter=\count307
+\c@maxcitecounter=\count308
+\c@savedcitecounter=\count309
+\c@uniquelist=\count310
+\c@uniquename=\count311
+\c@refsection=\count312
+\c@refsegment=\count313
+\c@maxextratitle=\count314
+\c@maxextratitleyear=\count315
+\c@maxextraname=\count316
+\c@maxextradate=\count317
+\c@maxextraalpha=\count318
+\c@abbrvpenalty=\count319
+\c@highnamepenalty=\count320
+\c@lownamepenalty=\count321
+\c@maxparens=\count322
+\c@parenlevel=\count323
+\blx@tempcnta=\count324
+\blx@tempcntb=\count325
+\blx@tempcntc=\count326
+\blx@maxsection=\count327
+\blx@maxsegment@0=\count328
+\blx@notetype=\count329
+\blx@parenlevel@text=\count330
+\blx@parenlevel@foot=\count331
+\blx@sectionciteorder@0=\count332
+\blx@entrysetcounter=\count333
+\blx@biblioinstance=\count334
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language88
+\c@mincomprange=\count335
+\c@maxcomprange=\count336
+\c@mincompwidth=\count337
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'iso-numeric.dbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-iso690/iso-numeric.dbx
+File: iso-numeric.dbx 2020/03/25 v0.4.0 ISO 690 biblatex data model extension
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count338
+\c@savedafterword=\count339
+\c@annotator=\count340
+\c@savedannotator=\count341
+\c@author=\count342
+\c@savedauthor=\count343
+\c@bookauthor=\count344
+\c@savedbookauthor=\count345
+\c@commentator=\count346
+\c@savedcommentator=\count347
+\c@editor=\count348
+\c@savededitor=\count349
+\c@editora=\count350
+\c@savededitora=\count351
+\c@editorb=\count352
+\c@savededitorb=\count353
+\c@editorc=\count354
+\c@savededitorc=\count355
+\c@foreword=\count356
+\c@savedforeword=\count357
+\c@holder=\count358
+\c@savedholder=\count359
+\c@introduction=\count360
+\c@savedintroduction=\count361
+\c@namea=\count362
+\c@savednamea=\count363
+\c@nameb=\count364
+\c@savednameb=\count365
+\c@namec=\count366
+\c@savednamec=\count367
+\c@translator=\count368
+\c@savedtranslator=\count369
+\c@shortauthor=\count370
+\c@savedshortauthor=\count371
+\c@shorteditor=\count372
+\c@savedshorteditor=\count373
+\c@supervisor=\count374
+\c@savedsupervisor=\count375
+\c@labelname=\count376
+\c@savedlabelname=\count377
+\c@institution=\count378
+\c@savedinstitution=\count379
+\c@lista=\count380
+\c@savedlista=\count381
+\c@listb=\count382
+\c@savedlistb=\count383
+\c@listc=\count384
+\c@savedlistc=\count385
+\c@listd=\count386
+\c@savedlistd=\count387
+\c@liste=\count388
+\c@savedliste=\count389
+\c@listf=\count390
+\c@savedlistf=\count391
+\c@location=\count392
+\c@savedlocation=\count393
+\c@organization=\count394
+\c@savedorganization=\count395
+\c@origlocation=\count396
+\c@savedoriglocation=\count397
+\c@origpublisher=\count398
+\c@savedorigpublisher=\count399
+\c@publisher=\count400
+\c@savedpublisher=\count401
+\c@language=\count402
+\c@savedlanguage=\count403
+\c@origlanguage=\count404
+\c@savedoriglanguage=\count405
+\c@pageref=\count406
+\c@savedpageref=\count407
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count408
+\c@textcitetotal=\count409
+\c@textcitemaxnames=\count410
+\c@biburlbigbreakpenalty=\count411
+\c@biburlbreakpenalty=\count412
+\c@biburlnumpenalty=\count413
+\c@biburlucpenalty=\count414
+\c@biburllcpenalty=\count415
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count416
+)
+Package biblatex Info: Trying to load bibliography style 'iso-numeric'...
+Package biblatex Info: ... file 'iso-numeric.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-iso690/iso-numeric.bbx
+File: iso-numeric.bbx 2020/03/25 v0.4.0 ISO 690 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'iso'...
+Package biblatex Info: ... file 'iso.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-iso690/iso.bbx
+File: iso.bbx 2020/03/25 v0.4.0 ISO 690 biblatex bibliography style
+Package biblatex-iso690 Info: Space colon enabled: false.
+Package biblatex-iso690 Info: Total pages enabled: false.
+Package biblatex-iso690 Info: Short numeration enabled: false.
+Package biblatex-iso690 Info: Printing thesis info at the end enabled: true.
+Package biblatex-iso690 Info: URL field enabled: true.
+Package biblatex-iso690 Info: ISBN field enabled: true.
+Package biblatex-iso690 Info: DOI field enabled: true.
+Package biblatex-iso690 Info: eprint field enabled: true.
+Package biblatex-iso690 Info: Article publication info enabled: false.
+Package biblatex Info: Delimiter 'multinamedelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'editortypedelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Delimiter 'authortypedelim' in context '' already defined
+, overwriting.
+))
+Package biblatex Info: Trying to load citation style 'iso-numeric'...
+Package biblatex Info: ... file 'iso-numeric.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-iso690/iso-numeric.cbx
+File: iso-numeric.cbx 2020/03/25 v0.4.0 ISO 690 biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load citation style 'iso-fullcite'...
+Package biblatex Info: ... file 'iso-fullcite.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-iso690/iso-fullcite.cbx
+File: iso-fullcite.cbx 2020/03/25 v0.4.0 ISO 690 biblatex fullcite modifications
+
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\footfullcite'.
+)
+Package biblatex Info: Redefining '\parencite'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex-iso690 Info: ISBN field enabled: true.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/02/05 v0.5s Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count417
+\calc@Bcount=\count418
+\calc@Adimen=\dimen159
+\calc@Bdimen=\dimen160
+\calc@Askip=\skip77
+\calc@Bskip=\skip78
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count419
+\calc@Cskip=\skip79
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen161
+\ESO@tempdimb=\dimen162
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen163
+\AM@pageheight=\dimen164
+\AM@fboxrule=\dimen165
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2021/02/05 v0.5s Pdfpages driver for LuaTeX (AM)
+)
+\pdfpages@includegraphics@status=\count420
+\AM@pagebox=\box52
+\AM@global@opts=\toks27
+\AM@pagecnt=\count421
+\AM@toc@title=\toks28
+\c@AM@survey=\count422
+\AM@templatesizebox=\box53
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen166
+\pgfutil@tempdimb=\dimen167
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box54
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen168
+\pgf@y=\dimen169
+\pgf@xa=\dimen170
+\pgf@ya=\dimen171
+\pgf@xb=\dimen172
+\pgf@yb=\dimen173
+\pgf@xc=\dimen174
+\pgf@yc=\dimen175
+\pgf@xd=\dimen176
+\pgf@yd=\dimen177
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count423
+\c@pgf@countb=\count424
+\c@pgf@countc=\count425
+\c@pgf@countd=\count426
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count427
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
+ef
+File: pgfsys-luatex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count428
+\pgfsyssoftpath@bigbuffer@items=\count429
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen178
+\pgfmath@count=\count430
+\pgfmath@box=\box55
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count431
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count432
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen197
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen257
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen258
+\pgf@sys@shading@range@num=\count433
+\pgf@shadingcount=\count434
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box59
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box60
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen259
+\pgf@nodesepend=\dimen260
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen261
+\pgffor@skip=\dimen262
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count435
+\pgfplotmarksize=\dimen263
+)
+\tikz@lastx=\dimen264
+\tikz@lasty=\dimen265
+\tikz@lastxsaved=\dimen266
+\tikz@lastysaved=\dimen267
+\tikz@lastmovetox=\dimen268
+\tikz@lastmovetoy=\dimen269
+\tikzleveldistance=\dimen270
+\tikzsiblingdistance=\dimen271
+\tikz@figbox=\box61
+\tikz@figbox@bg=\box62
+\tikz@tempbox=\box63
+\tikz@tempbox@bg=\box64
+\tikztreelevel=\count436
+\tikznumberofchildren=\count437
+\tikznumberofcurrentchild=\count438
+\tikz@fig@count=\count439
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count440
+\pgfmatrixcurrentcolumn=\count441
+\pgf@matrix@numberofcolumns=\count442
+)
+\tikz@expandcount=\count443
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2021/01/19{} The CircuiTikz circuit drawing package version 
+1.3.0
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen272
+\pgfarrowlength=\dimen273
+\pgfarrowwidth=\dimen274
+\pgfarrowlinewidth=\dimen275
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.co
+de.tex
+File: pgfmodulebending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineart
+ransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgftransformnonlinearflatness=\dimen276
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvili
+near.code.tex
+File: pgflibrarycurvilinear.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@curvilinear@time@a=\dimen277
+\pgf@curvilinear@length@a=\dimen278
+\pgf@curvilinear@length@b=\dimen279
+\pgf@curvilinear@length@c=\dimen280
+\pgf@curvilinear@length@d=\dimen281
+)
+\pgf@arrows@the@rigidity=\dimen282
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfpu.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count444
+\pgf@circ@count@b=\count445
+\pgf@circ@count@c=\count446
+\pgf@circ@res@up=\dimen283
+\pgf@circ@res@down=\dimen284
+\pgf@circ@res@zero=\dimen285
+\pgf@circ@res@left=\dimen286
+\pgf@circ@res@right=\dimen287
+\pgf@circ@res@other=\dimen288
+\pgf@circ@res@step=\dimen289
+\pgf@circ@res@temp=\dimen290
+\pgf@circ@Rlen=\dimen291
+\pgf@circ@scaled@Rlen=\dimen292
+\pgfstartlinewidth=\dimen293
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count447
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.te
+x) (/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen294
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+
+Package circuitikz Warning: You did not specify one of the voltage directions:
+(circuitikz)                  oldvoltagedirection, nooldvoltagedirection, 
+(circuitikz)                  RPvoltages or EFvoltages 
+(circuitikz)                Default directions may have changed, 
+(circuitikz)                please check the manual.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup5
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen295
+\captionmargin@=\dimen296
+\captionwidth=\dimen297
+\caption@tempdima=\dimen298
+\caption@indent=\dimen299
+\caption@parindent=\dimen300
+\caption@hangindent=\dimen301
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count448
+\c@continuedfloat=\count449
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count450
+\c@subtable=\count451
+)
+Package caption Info: Option `figurename' requires the `newfloat' package on inp
+ut line 70.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip80
+\cftbeforetoctitleskip=\skip81
+\cftaftertoctitleskip=\skip82
+\cftbeforepartskip=\skip83
+\cftpartnumwidth=\skip84
+\cftpartindent=\skip85
+\cftbeforesecskip=\skip86
+\cftsecindent=\skip87
+\cftsecnumwidth=\skip88
+\cftbeforesubsecskip=\skip89
+\cftsubsecindent=\skip90
+\cftsubsecnumwidth=\skip91
+\cftbeforesubsubsecskip=\skip92
+\cftsubsubsecindent=\skip93
+\cftsubsubsecnumwidth=\skip94
+\cftbeforeparaskip=\skip95
+\cftparaindent=\skip96
+\cftparanumwidth=\skip97
+\cftbeforesubparaskip=\skip98
+\cftsubparaindent=\skip99
+\cftsubparanumwidth=\skip100
+\cftbeforeloftitleskip=\skip101
+\cftafterloftitleskip=\skip102
+\cftbeforefigskip=\skip103
+\cftfigindent=\skip104
+\cftfignumwidth=\skip105
+\c@lofdepth=\count452
+\c@lotdepth=\count453
+\cftbeforelottitleskip=\skip106
+\cftafterlottitleskip=\skip107
+\cftbeforetabskip=\skip108
+\cfttabindent=\skip109
+\cfttabnumwidth=\skip110
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count454
+\Gm@cntv=\count455
+\c@Gm@tempcnt=\count456
+\Gm@bindingoffset=\dimen302
+\Gm@wd@mp=\dimen303
+\Gm@odd@mp=\dimen304
+\Gm@even@mp=\dimen305
+\Gm@layoutwidth=\dimen306
+\Gm@layoutheight=\dimen307
+\Gm@layouthoffset=\dimen308
+\Gm@layoutvoffset=\dimen309
+\Gm@dimlist=\toks42
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box65
+\beforetitleunit=\skip111
+\aftertitleunit=\skip112
+\ttl@plus=\dimen310
+\ttl@minus=\dimen311
+\ttl@toksa=\toks43
+\titlewidth=\dimen312
+\titlewidthlast=\dimen313
+\titlewidthfirst=\dimen314
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen315
+\ar@mcellbox=\box66
+\extrarowheight=\dimen316
+\NC@list=\toks44
+\extratabsurround=\skip113
+\backup@length=\skip114
+\ar@cellbox=\box67
+)
+\everycr=\toks45
+\minrowclearance=\skip115
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ctable/ctable.sty
+Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of tabl
+e and figure floats using key/value directives
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
+)
+\XKV@depth=\count457
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen317
+\TX@old@table=\dimen318
+\TX@old@col=\dimen319
+\TX@target=\dimen320
+\TX@delta=\dimen321
+\TX@cols=\count458
+\TX@ftn=\toks48
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen322
+\lightrulewidth=\dimen323
+\cmidrulewidth=\dimen324
+\belowrulesep=\dimen325
+\belowbottomsep=\dimen326
+\aboverulesep=\dimen327
+\abovetopsep=\dimen328
+\cmidrulesep=\dimen329
+\cmidrulekern=\dimen330
+\defaultaddspace=\dimen331
+\@cmidla=\count459
+\@cmidlb=\count460
+\@aboverulesep=\dimen332
+\@belowrulesep=\dimen333
+\@thisruleclass=\count461
+\@lastruleclass=\count462
+\@thisrulewidth=\dimen334
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count463
+\rotFPtop=\skip116
+\rotFPbot=\skip117
+\rot@float@box=\box68
+\rot@mess@toks=\toks49
+)
+
+Package ctable Warning:  Transparency disabled: incompatible with tikz package  
+on input line 36.
+
+\@CTframesep=\dimen335
+\@dfltCTframesep=\dimen336
+\@CTframerule=\dimen337
+\@dfltCTframerule=\dimen338
+\@CTwidth=\dimen339
+\@dfltCTwidth=\dimen340
+\@CTcaptionskip=\dimen341
+\@dfltCTcaptionskip=\dimen342
+\@CTmaxwidth=\dimen343
+\@dfltCTmaxwidth=\dimen344
+\@CTmincapwidth=\dimen345
+\@dfltCTmincapwidth=\dimen346
+\@CTfooterwidth=\dimen347
+\@dfltCTfooterwidth=\dimen348
+\@CTw=\dimen349
+\@CTfloatwidth=\dimen350
+\@CToldsep=\dimen351
+\@CToldrule=\dimen352
+\CT@t=\box69
+\@CTcurftwidth=\dimen353
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count464
+\mult@box=\box70
+\multicol@leftmargin=\dimen354
+\c@unbalance=\count465
+\c@collectmore=\count466
+\doublecol@number=\count467
+\multicoltolerance=\count468
+\multicolpretolerance=\count469
+\full@width=\dimen355
+\page@free=\dimen356
+\premulticols=\dimen357
+\postmulticols=\dimen358
+\multicolsep=\skip118
+\multicolbaselineskip=\skip119
+\partial@page=\box71
+\last@line=\box72
+\maxbalancingoverflow=\dimen359
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@gfirstbox=\box75
+\mult@firstbox=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\c@minrows=\count470
+\c@columnbadness=\count471
+\c@finalcolumnbadness=\count472
+\last@try=\dimen360
+\multicolovershoot=\dimen361
+\multicolundershoot=\dimen362
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count473
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'czech'.
+ (./tpr.aux)
+\openout1 = tpr.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 12
+0.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count474
+\scratchdimen=\dimen363
+\scratchbox=\box116
+\nofMPsegments=\count475
+\nofMParguments=\count476
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count477
+\MPscratchDim=\dimen364
+\MPnumerator=\count478
+\makeMPintoPDFobject=\count479
+\everyMPtoPDFconversion=\toks51
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
+5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+Package hyperref Info: Link coloring ON on input line 120.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count480
+)
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
+ (./tpr.out) (./tpr.out)
+\@outlinefile=\write6
+
+\openout6 = tpr.out
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 120.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 120.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 120.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 120.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 120.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 120.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 120.
+LaTeX Font Info:    Redeclaring math accent \check on input line 120.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 120.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 120.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 120.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 120.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 12
+0.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 1
+20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on i
+nput line 120.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 
+120.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 1
+20.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
+20.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/TimesNewRoman(1)/m/n on input line 1
+20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on i
+nput line 120.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line
+ 120.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+120.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/TimesNewRoman(1)/b/n on input line 1
+20.
+Package biblatex Info: Trying to load language 'czech' -> 'czech-iso'...
+Package biblatex Info: ... file 'czech-iso.lbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-iso690/czech-iso.lbx
+File: czech-iso.lbx 2020/03/25 v0.4.0 ISO 690 extended biblatex localization
+Package biblatex Info: Trying to load language 'czech'...
+Package biblatex Info: ... file 'czech.lbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/czech.lbx
+File: czech.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'czech'...
+Package biblatex Info: ... file 'czech.lbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/czech.lbx
+File: czech.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-06 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = tpr-blx.bib
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'tpr.bbl' not found.
+
+No file tpr.bbl.
+Package biblatex Info: Reference section=0 on input line 120.
+Package biblatex Info: Reference segment=0 on input line 120.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package newfloat Info: `float' package detected.
+Package newfloat Info: `rotating' package detected.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=28.45274pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Couldn't patch \ttl@straight@ii
+Couldn't patch \ttl@straight@ii
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'TimesNewRoman(2)' created for font 'Times
+(fontspec)             New Roman' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;"
+
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;"
+
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt;
+"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+<files/symbol_cvut_konturova_verze.pdf, id=237, 126.78568pt x 96.54268pt>
+File: files/symbol_cvut_konturova_verze.pdf Graphic file (type pdf)
+<use files/symbol_cvut_konturova_verze.pdf>
+Package luatex.def Info: files/symbol_cvut_konturova_verze.pdf  used on input li
+ne 169.
+(luatex.def)             Requested size: 126.78535pt x 96.54243pt.
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./files/s
+ymbol_cvut_konturova_verze.pdf>]
+luaotfload | aux : font no 51 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 54 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'TIMESNEWROMAN(0)' created for font 'TIMES
+(fontspec)             NEW ROMAN' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TIMESNEWROMAN:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TIMESNEWROMAN/B:mode=node;script=latn;language=dflt;"
+
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TIMESNEWROMAN/I:mode=node;script=latn;language=dflt;"
+
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TIMESNEWROMAN/BI:mode=node;script=latn;language=dflt;
+"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (./tpr.toc<<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 5.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)<<ot1.cmap>>
+[2])
+\tf@toc=\write7
+
+\openout7 = tpr.toc
+ [3] (./tpr.lof)
+\tf@lof=\write8
+
+\openout8 = tpr.lof
+ (./tpr.lot)
+\tf@lot=\write9
+
+\openout9 = tpr.lot
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--245
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]
+
+Package fontspec Info: Could not resolve font "TimesNewRomanItalic/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "TimesNewRomanItalic/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "TimesNewRomanItalic/I" (it
+(fontspec)             probably doesn't exist).
+
+luaotfload | aux : font no 86 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'TimesNewRomanItalic(0)' created for font
+(fontspec)             'Times New Roman Italic' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRomanItalic:mode=node;script=latn;language=df
+lt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (34.32538pt too wide) in paragraph at lines 336--383
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 6842) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ši-roké
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 schopný
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pro-pra-co-
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 vaná in-terní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vyšší vě-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 méně
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 schopné
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 účetní
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zá-vis-lost na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 za-hra-nič-ních
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 okolní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 tech-nické
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 prů-mys-lové
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 za-me-zení
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 vstupu/slo-
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 ži-tejší vstup
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 kon-ku-rence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kan-ce-lář-ští
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 pra-cov-níci
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 mo-hou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 pra-co-vat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-moc
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-pla-tící zá-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ode-brání
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 li-cencí/po-
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zvý-šení cen
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/10.95 pro-duktů od
+ []
+
+[5] Excluding 'comment' comment.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 5288) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/b/n/10.95 ob-jek-tivně ově-ři-telné uka-ze-
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-čet od-stra-ně-ných sví-ti-del a
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 jsou na-in-sta-lo-vána vy-ho-vu-jící
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-vy-ho-vu-jící kri-té-ria, ne-správá
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 všechny sví-ti-dla v ga-rá-žích a
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 všechna ka-be-lová in-sta-lace je
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 vy-mě-něna do 30.09.2021 a je
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 jed-not-livé do-ku-menty v ori-gi-
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 nálu, či v ko-píích, le-gisla-tivní
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ori-gi-nál pro-to-kolu při-lo-žen ke
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 kom-pletní do-ku-men-taci, ko-pie
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 ode-brat ma-te-riál, bude nut-nost
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 od-vést starý ma-te-riál na jiné,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-bu-dou do-dána po-ža-do-vaná
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 schvá-lena do-tace z fondu pro
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 část ma-te-ri-álu se na-chází ve
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 jímce zboží, zá-pisy spo-tře-bo-
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 všechny pro-cesy pro-jektu jsou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zá-pisy v de-ní-cích práce a
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-čet ne-do-da-ných do-ku-mentů
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kom-ple-tace do-ku-men-tace sku-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 do-ku-men-tace není kom-pletní,
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 tisk-nutí není možné z ne-kom-
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pře-dání do-ku-men-tace zá-kaz-ní-
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 v ar-chiv-ním sys-tému je pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
+[]|\TU/TimesNewRoman(0)/m/n/10.95 za-bez-pe-čený ser-ver není
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 549--549
+\TU/TimesNewRoman(0)/m/n/10.95 funkční, je třeba kon-tak-to-vat
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \hbox (badness 5288) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/b/n/10.95 ob-jek-tivně ově-ři-telné uka-ze-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 do kon-tej-ner ob-jed-nán do
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pro-na-jí-mací firma nemá volné
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 do-da-va-tel nemá v ur-čený da-
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 do-da-va-tel nemá v ur-čený da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 od-běr ma-te-ri-álu v od-běr-ném
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 před-po-klá-dáno, třeba upra-vit
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 har-mo-no-gram nebo vlo-žit do
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-čet na-mon-to-va-ných sví-ti-del
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 bylo oče-ká-váno, třeba upra-vit
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 har-mo-no-gram nebo vlo-žit do
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 ta-cích a kon-tak-to-vat kon-krétní
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pří-slušný or-gán má ome-ze-nou
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-stí-hání zho-to-venní plné žá-
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kli-ent ne-spo-lu-pra-cuje, nut-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 na-vr-žené kom-po-nenty nejsou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kom-po-nenty vy-zved-nuty do
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 sklad není do-stupný, není do-
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 sta-teč-nou ka-pa-citu na pře-voz
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 na sta-ve-ništi není do-sta-tečné
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 místo, je třeba skla-do-vat více
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pl-nost skladů hna-zak, skla-do-
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 uvě-do-mnění tech-nika z di-vize
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 tech-nik re-vize uvě-do-měn do
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-t-rola sku-teč-ného pro-ve-dení
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-t-rola re-viz-ním tech-ni-kem
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 ves-tora a re-viz-ního tech-nika,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vy-pra-co-vání har-mo-no-gramu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 har-mo-no-gram umís-těn do
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kom-pli-kace s do-stat-kem pra-
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 585--585
+\TU/TimesNewRoman(0)/m/n/10.95 nebo pro-dlou-žit har-mo-no-gram
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zá-pis po-stupu pro-cesů do
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 7613) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 jek-tant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pro-jek-tant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 elek-tro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 au-to-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 ti-zační
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ři-dící pra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 cov-ník na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 tým
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 tým
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 tým
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-taktní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 osoba pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 právní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zpra-co-va-tel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 do-ku-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 účetní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ob-jed-na-tel
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zjiš-tění ak-tu-ál-ního
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ná-vrh elek-tro-in-sta-
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vý-po-čty elek-tro-in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-t-rola ná-vrhu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 elek-tro-in-sta-lace a
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 za-kres-lení elek-tro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 sjed-no-co-fání
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 fak-tur/kon-t-rola
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pří-tom-nost ma-te-ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 do-pravní pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ná-vrh uži-va-tel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 ského roz-hraní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zá-pis do de-níku
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 správa Get-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kom-ple-tace do-ku-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-t-rola do-dr-žo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+\TU/TimesNewRoman(0)/m/n/10.95 vání har-mo-no-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 fo-to-do-ku-men-tace
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pre-zen-tace úvodní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vy-tvo-ření re-vizní
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 735--748
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 749--762
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--780
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--790
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 791--812
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--820
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 821--837
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 840--857
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \hbox (badness 10000) in paragraph at lines 858--867
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--880
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 889--890
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Overfull \hbox (3.35406pt too wide) in paragraph at lines 897--897
+[]\TU/TimesNewRoman(1)/m/n/10.95 Z GANTT di-a-gramu je možné vi-dět, že pod-
+pis pře-dá-va-cího pro-to-kolu je na-plá-no-ván do dne 28.09.2021.
+ []
+
+<files/gantt_half1.png, id=454, 2770.35pt x 1410.26875pt>
+File: files/gantt_half1.png Graphic file (type png)
+<use files/gantt_half1.png>
+Package luatex.def Info: files/gantt_half1.png  used on input line 902.
+(luatex.def)             Requested size: 455.24411pt x 231.73747pt.
+<files/gantt_half2.png, id=455, 2770.35pt x 1410.26875pt>
+File: files/gantt_half2.png Graphic file (type png)
+<use files/gantt_half2.png>
+Package luatex.def Info: files/gantt_half2.png  used on input line 909.
+(luatex.def)             Requested size: 455.24411pt x 231.73747pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18<./files/gantt_half1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Funkční
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Po-ten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/b/n/10.95 ci-o-nální
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/b/n/10.95 po-ru-chy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Po-ten-ci-ální
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/b/n/10.95 ná-sledky
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Zá-važ-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Po-ten-ci-ální
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/b/n/10.95 pří-čina
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Prav-dě-po-
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Ny-nější ře-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 De-te-ko-va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Do-po-ru-čené
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/b/n/10.95 Zod-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/b/n/10.95 vědná
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/b/n/10.95 osoba a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/b/n/10.95 klí-čový
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-zís-kání
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pro-blém
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-spl-nění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-čí-táme,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 že do-taci
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zís-kání
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 lep-ších in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 for-ma-cích
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 o po-ža-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 dav-cích na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 právní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 do-dejka
+ []
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 méně ma-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-su-nutí
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 har-mo-no-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-do-sta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 tek zboží
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-sun har-
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 telů s iden-
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 tic-kým zbo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ob-jed-na-va-tel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ma-te-ri-álu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 + ex-ter-ních
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 do-stup-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-do-sta-tek
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 a-li-zace pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-o-če-ká-vaná
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 tes-to-vání na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 trans-port
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 při-ve-zen na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-mož-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-do-sta-tek
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ná-kup au-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ob-jed-na-va-tel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ma-te-ri-álu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 + ex-ter-ních
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zboží není
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 není ma-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 se pro-jekt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vy-čer-pání
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 zá-sob do-da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-sun har-
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 telů s iden-
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 tic-kým zbo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ob-jed-na-va-tel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ma-te-ri-álu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 + ex-ter-ních
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-ško-zení
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-do-sta-tek
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-správná
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 za-kou-pení
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 více sví-ti-del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 při pr-votní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pev-nější
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 obaly sví-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ří-dící pra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 li-kvi-dace
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-mož-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 hro-ma-dění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pře-pl-něné
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 od-běrné
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 trans-port do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 uza-vření
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 smlouvy
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 mís-tem tak,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 aby vždy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 byla ka-pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ta-žení ka-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-funkč-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-funkč-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-správná
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vý-měna ka-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ří-dící pra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zvý-šení
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 fi-nanční
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-správná
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ří-dící pra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-spl-nění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 po-sun har-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-kva-litní
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vý-měna sví-
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-t-rola re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pře-dá-vání
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 zá-kaz-ník
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 od-mítá dílo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 změna ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 lepší
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 smlouva
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 usklad-nění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ma-te-ri-álu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-mož-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 usklad-nění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kom-pli-kace
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pří-liš malé
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 plo-chy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 usklad-nění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ve skladě
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 pře-svěd-čení
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 zá-kaz-níka,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 že další
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 plo-chy je
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 nut-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 uzavřít,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 vy-jde to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 lev-něji a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 eko-lo-gič-těji,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-taktní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 osoba
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 GTWD +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ve-doucí
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 usklad-nění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-mož-nost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 usklad-nění
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kom-pli-kace
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 sklad Hna-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 Zak je
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 na-jí-mání
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 roz-ší-ření
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ob-jed-na-va-tel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ma-te-ri-álu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 + ex-ter-ních
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ko-mu-ni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 kace se
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 ne-jis-tota za-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 špatná
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 ori-en-tace
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 te-le-fonní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 vy-lep-šení
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\TU/TimesNewRoman(0)/m/n/10.95 kon-taktní
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+\TU/TimesNewRoman(0)/m/n/10.95 osoba
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19<./files/gantt_half2.png>] [20] [21]
+
+LaTeX Warning: Empty bibliography on input line 976.
+
+Excluding 'comment' comment. (./tpr.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `tpr.out' has not changed.
+(rerunfilecheck)             Checksum: 0E06845A635D11A664E7416224B7155F;7960.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                tpr
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'tpr.run.xml'.
+
+\openout1 = tpr.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 48977 strings out of 478822
+ 244178,2373549 words of node,token memory allocated
+ 823 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 17 attribute, 105 g
+lue_spec, 10 attribute_list, 4 write nodes
+   avail lists: 1:13,2:6172,3:1294,4:206,5:1201,6:858,7:17063,8:97,9:7239,10:11,
+11:1794
+ 66876 multiletter control sequences out of 65536+600000
+ 89 fonts using 26037271 bytes
+ 87i,13n,85p,1843b,2050s stack positions out of 5000i,500n,10000p,200000b,200000s
+</System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/
+Fonts/Supplemental/Times New Roman.ttf></System/Library/Fonts/Supplemental/Times
+ New Roman Bold.ttf>
+Output written on tpr.pdf (25 pages, 705037 bytes).
+
+PDF statistics: 510 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 129 named destinations out of 1000 (max. 131072)
+ 497 words of extra memory for PDF output out of 10000 (max. 100000000)
+

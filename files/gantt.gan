@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Osvětlení garáží 2021" company="" webLink="http://" view-date="2021-06-07" view-index="0" gantt-divider-location="821" resource-divider-location="300" version="3.0.3004" locale="en_GB">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="457" order="0"/>
+        <field id="tpd4" name="Begin date" width="173" order="1"/>
+        <field id="tpd5" name="End date" width="170" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Projekce elektroinstalace a zařízení" color="#8cb6ce" meeting="false" start="2021-03-04" duration="149" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true">
+            <task id="15" name="Zjištění aktuálního stavu" meeting="false" start="2021-03-04" duration="29" complete="0" expand="true">
+                <task id="16" name="Zajištění stávající dokumentace" color="#8cb6ce" meeting="false" start="2021-03-04" duration="29" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true">
+                    <task id="19" name="Požádání zákazníka o dokumentaci" color="#8cb6ce" meeting="false" start="2021-03-04" duration="7" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="20" name="Kontrola shodnosti dokumentace a skutečného provedení/stavu" color="#8cb6ce" meeting="false" start="2021-03-12" duration="11" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="21" name="Vložení stávající dokumentace do GTWD" color="#8cb6ce" meeting="false" start="2021-04-12" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="22" name="Procházení prostoru" meeting="false" start="2021-03-12" duration="11" complete="0" expand="true">
+                <task id="23" name="Kontrola rozměrů svítidel" meeting="false" start="2021-03-12" duration="4" complete="0" expand="true"/>
+                <task id="24" name="Kontrola průchodnosti kabelových průchodů" meeting="false" start="2021-03-18" duration="1" complete="0" expand="true"/>
+                <task id="25" name="Zjištění stávajícího stavu rozvaděčů" meeting="false" start="2021-03-19" duration="2" complete="0" expand="true"/>
+                <task id="26" name="Zjištění velikosti odstavných ploch na materiál" meeting="false" start="2021-03-23" duration="2" complete="0" expand="true"/>
+                <task id="27" name="Vložení informace o stávajícím stavu do GTWD" color="#8cb6ce" meeting="false" start="2021-03-25" duration="2" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="28" name="Projekce osvětlení" meeting="false" start="2021-03-26" duration="133" complete="0" expand="true">
+                <task id="29" name="Vytvoření modelu prostoru" color="#8cb6ce" meeting="false" start="2021-03-26" duration="5" complete="0" thirdDate="2021-03-26" thirdDate-constraint="0" expand="true"/>
+                <task id="30" name="Výpočet hodnoty osvětlenosti" color="#8cb6ce" meeting="false" start="2021-04-02" duration="4" complete="0" thirdDate="2021-04-02" thirdDate-constraint="0" expand="true"/>
+                <task id="31" name="Ověření výpočtu simulací" color="#8cb6ce" meeting="false" start="2021-04-07" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="32" name="Vložení výsledku a dokumentace o výpočtu osvětlení do GTWD" color="#8cb6ce" meeting="false" start="2021-04-08" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="33" name="Návrh svítidel" meeting="false" start="2021-04-12" duration="18" complete="0" expand="true">
+                    <task id="34" name="Výběr svítidel z katalogu" color="#8cb6ce" meeting="false" start="2021-04-12" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="35" name="Kontrola dostupnosti vybraných svítidel" color="#8cb6ce" meeting="false" start="2021-04-13" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="37" name="Vložení návrhu vybraných svítidel do GTWD" color="#8cb6ce" meeting="false" start="2021-04-14" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="38" name="Komunikace se zákazníkem ohledně vybraného designu svítidel vložených do GTWD" color="#8cb6ce" meeting="false" start="2021-04-14" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="39" name="Dodatečná kontrola/úprava vybraných svítidel" color="#8cb6ce" meeting="false" start="2021-04-15" duration="15" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="40" name="Vytvoření objednávky na svítidla" color="#8cb6ce" meeting="false" start="2021-04-15" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="41" name="Vložení dokumentů do GTWD" color="#8cb6ce" meeting="false" start="2021-04-16" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="42" name="Projekce elektroinstalace" meeting="false" start="2021-04-19" duration="13" complete="0" expand="true">
+                    <task id="43" name="Výpočet zatížení a příkonu" meeting="false" start="2021-04-19" duration="2" complete="0" expand="true">
+                        <task id="44" name="Vlastní výpočet" color="#8cb6ce" meeting="false" start="2021-04-19" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="45" name="Vložení výsledku do GTWD" color="#8cb6ce" meeting="false" start="2021-04-20" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="46" name="Navržení rozvodu kabeláže dle stávající dokumentace" meeting="false" start="2021-04-21" duration="6" complete="0" expand="true">
+                        <task id="47" name="Vlastní návrh" color="#8cb6ce" meeting="false" start="2021-04-21" duration="3" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="51" name="Objednávka komponent" color="#8cb6ce" meeting="false" start="2021-04-27" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="49" name="Vložení výsledku do GTWD" color="#8cb6ce" meeting="false" start="2021-04-28" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="56" name="Vytvoření návrhu a projekce moderních rozvaděčů" meeting="false" start="2021-04-23" duration="9" complete="0" expand="true">
+                        <task id="57" name="Kontrola dostupnosti navržených komponent" color="#8cb6ce" meeting="false" start="2021-04-23" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="58" name="Vložení navržených komponent do GTWD" color="#8cb6ce" meeting="false" start="2021-04-23" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="59" name="Konzultace návrhu s klientem" color="#8cb6ce" meeting="false" start="2021-04-26" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="60" name="Objednávka komponent" color="#8cb6ce" meeting="false" start="2021-04-27" duration="7" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="52" name="Kontrola výkonu a ochranných prvků v rozvaděčích" meeting="false" start="2021-04-26" duration="2" complete="0" expand="true">
+                        <task id="53" name="Konzultace výsledků s klientem" color="#8cb6ce" meeting="false" start="2021-04-26" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="54" name="Vlastní kontrola" color="#8cb6ce" meeting="false" start="2021-04-27" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="61" name="Vytvoření dokumentace" meeting="false" start="2021-07-07" duration="60" complete="0" expand="true">
+                    <task id="62" name="Kontrola přítomnosti všech součástí z předchozích kroků v administraci" color="#8cb6ce" meeting="false" start="2021-07-07" duration="4" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="64" name="Kompletace dokumentace z části přípravy v GTWD" color="#8cb6ce" meeting="false" start="2021-07-09" duration="5" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="65" name="Kompletace dokumentace skutečného provedení v GTWD" color="#8cb6ce" meeting="false" start="2021-09-01" duration="13" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="66" name="Vytisknutí celkové dokumentace" color="#8cb6ce" meeting="false" start="2021-09-20" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    <task id="67" name="Předání dokumentace" meeting="false" start="2021-09-24" duration="3" complete="0" expand="true">
+                        <task id="68" name="Zákazníkovi" color="#8cb6ce" meeting="false" start="2021-09-24" duration="3" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="69" name="Do archivu" color="#8cb6ce" meeting="false" start="2021-09-24" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                        <task id="70" name="Na zabezpečený server" color="#8cb6ce" meeting="false" start="2021-09-24" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+        </task>
+        <task id="121" name="Legislativní úkony" meeting="false" start="2021-03-04" duration="152" complete="0" expand="true">
+            <task id="122" name="Smlouva" meeting="false" start="2021-03-04" duration="13" complete="0" expand="true">
+                <task id="123" name="Tvorba smlouvy" color="#8cb6ce" meeting="false" start="2021-03-04" duration="12" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="125" name="Podepsání smlouvy" color="#8cb6ce" meeting="false" start="2021-03-19" duration="2" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="126" name="Žádost o dotace" meeting="false" start="2021-03-04" duration="95" complete="0" expand="true">
+                <task id="127" name="Vypsání žádosti" color="#8cb6ce" meeting="false" start="2021-03-04" duration="4" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="130" name="Přijmutí peněz z fondu klientem" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true"/>
+                <task id="131" name="Vložení potvrzení o dotacích k dokumentaci do GTWD" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="128" name="Doručení příslušnému orgánu" color="#8cb6ce" meeting="false" start="2021-03-10" duration="1" complete="0" thirdDate="2021-03-10" thirdDate-constraint="0" expand="true"/>
+                <task id="168" name="Dodání plné žádosti" color="#8cb6ce" meeting="false" start="2021-03-11" duration="90" complete="0" thirdDate="2021-03-11" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="132" name="Revize" meeting="false" start="2021-08-13" duration="23" complete="0" expand="true">
+                <task id="133" name="Uvědomění technika z divize revize" color="#8cb6ce" meeting="false" start="2021-08-13" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="134" name="Udělení přístupu do GTWD" color="#8cb6ce" meeting="false" start="2021-08-16" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="136" name="Kontrola skutečného provedení revizním technikem" color="#8cb6ce" meeting="false" start="2021-08-30" duration="5" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="137" name="Vytvoření zprávy revizního technika" color="#8cb6ce" meeting="false" start="2021-09-06" duration="5" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="266" name="Prostor na vyřešení připomínek revizního technika" meeting="false" start="2021-09-10" duration="3" complete="0" expand="true"/>
+                <task id="138" name="Vložení revizní zprávy do celkové dokumentace GTWD" color="#8cb6ce" meeting="false" start="2021-09-13" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="139" name="Uvedení do provozu" meeting="false" start="2021-08-27" duration="26" complete="0" expand="true">
+                <task id="310" name="Provedení klienta" meeting="false" start="2021-08-27" duration="1" complete="0" expand="true"/>
+                <task id="285" name="Zaškolování obsluhy" meeting="false" start="2021-09-06" duration="5" complete="0" expand="true"/>
+                <task id="286" name="Zkušební provoz" meeting="false" start="2021-09-10" duration="12" complete="0" expand="true"/>
+                <task id="140" name="Vytvoření předávacího protokolu" color="#8cb6ce" meeting="false" start="2021-09-13" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="141" name="Schválení protokolu klientem" color="#8cb6ce" meeting="false" start="2021-09-20" duration="5" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="142" name="Tisk protokolu" color="#8cb6ce" meeting="false" start="2021-09-27" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="143" name="Podpis protokolu oběma smluvními stranami" color="#8cb6ce" meeting="false" start="2021-09-27" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="144" name="Vložení oskenované kopie protokolu do GTWD" color="#8cb6ce" meeting="false" start="2021-10-01" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="145" name="Kontrola průběhu projektu" meeting="false" start="2021-04-19" duration="121" complete="0" expand="true">
+            <task id="146" name="Založení projektu v GetThatWorkDone" color="#8cb6ce" meeting="false" start="2021-04-19" duration="1" complete="0" thirdDate="2021-04-19" thirdDate-constraint="0" expand="true"/>
+            <task id="147" name="Pozvání zákazníka do projektu" meeting="false" start="2021-04-19" duration="2" complete="0" expand="true"/>
+            <task id="148" name="Zaslání instruktážního videa GetThatWorkDone" color="#8cb6ce" meeting="false" start="2021-04-19" duration="1" complete="0" thirdDate="2021-04-19" thirdDate-constraint="0" expand="true"/>
+            <task id="152" name="Uzavření projektu v GTWD" color="#8cb6ce" meeting="false" start="2021-10-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="153" name="Archivace projektu v GTWD" color="#8cb6ce" meeting="false" start="2021-10-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="154" name="Zaslání archivačního odkazu do GTWD zákazníkovi" color="#8cb6ce" meeting="false" start="2021-10-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="155" name="Vyřazení projektu z aktivních projektů v GTWD" color="#8cb6ce" meeting="false" start="2021-10-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="89" name="Likvidace materiálu" color="#000000" meeting="false" start="2021-04-20" duration="63" complete="0" thirdDate="2021-03-02" thirdDate-constraint="0" expand="true">
+            <task id="90" name="Zajištění kontejneru na odpad" color="#8cb6ce" meeting="false" start="2021-04-20" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="91" name="Přívoz kontejneru na materiál určený k likvidaci" color="#8cb6ce" meeting="false" start="2021-05-11" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="93" name="Zajištění náhradního prázdného kontejneru" color="#8cb6ce" meeting="false" start="2021-05-20" duration="1" complete="0" thirdDate="2021-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="94" name="Přívoz prázdného kontejneru 1. patro" color="#8cb6ce" meeting="false" start="2021-06-01" duration="1" complete="0" thirdDate="2021-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="95" name="Zajištění odvozu kontejneru plného 1. patro" color="#8cb6ce" meeting="false" start="2021-06-01" duration="1" complete="0" thirdDate="2021-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="180" name="Odvoz plného kontejneru 1. patro" color="#8cb6ce" meeting="false" start="2021-06-24" duration="1" complete="0" thirdDate="2021-06-24" thirdDate-constraint="0" expand="true"/>
+            <task id="205" name="Přívoz prázdného kontejneru 2. patro" color="#8cb6ce" meeting="false" start="2021-06-24" duration="1" complete="0" thirdDate="2021-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="209" name="Odvoz plného kontejneru 2. patro" color="#8cb6ce" meeting="false" start="2021-07-15" duration="1" complete="0" thirdDate="2021-07-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="71" name="Výměna osvětlení" meeting="false" start="2021-04-26" duration="89" complete="0" expand="true">
+            <task id="72" name="Ustanovení pracovních týmů" color="#8cb6ce" meeting="false" start="2021-04-26" duration="3" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="73" name="Rozdělení rolí v týmu" color="#8cb6ce" meeting="false" start="2021-04-28" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="874" name="Vytvoření harmonogramu prací" meeting="false" start="2021-04-29" duration="3" complete="0" expand="true"/>
+            <task id="80" name="Odvoz materiálu na místo určení v garážích" meeting="false" start="2021-05-03" duration="6" complete="0" expand="true">
+                <task id="81" name="Kontaktování zákazníka o datu příjezdu" color="#8cb6ce" meeting="false" start="2021-05-03" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="896" name="Čas potřebný na přesun automobilů z dotčeného patra" color="#8cb6ce" meeting="false" start="2021-05-03" duration="6" complete="0" thirdDate="2021-05-03" thirdDate-constraint="0" expand="true"/>
+                <task id="82" name="Umístění materiálu na odstavné plochy" color="#8cb6ce" meeting="false" start="2021-05-10" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="74" name="Získání materiálu ze skladu" meeting="false" start="2021-05-05" duration="1" complete="0" expand="true">
+                <task id="75" name="Vyzvednutí firemního automobilu" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="76" name="Příjem ve skladu" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="77" name="Odvoz části materiálu do skladu HnaZak" meeting="false" start="2021-05-05" duration="3" complete="0" expand="true">
+                <task id="78" name="Příjem ve skladu" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="79" name="Zapsání objemu materiálu do GTWD" color="#8cb6ce" meeting="false" start="2021-05-07" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="83" name="Demontáž stávajícího osvětlení" meeting="false" start="2021-05-26" duration="62" complete="0" expand="true">
+                <task id="84" name="Převzetí vysokozdvižného automobilu" color="#8cb6ce" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="85" name="Vlastní demontáž" color="#8cb6ce" meeting="false" start="2021-05-26" duration="59" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="86" name="Umístění svítidel do kontejneru na odvoz do odběrného místa" color="#8cb6ce" meeting="false" start="2021-05-26" duration="59" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="903" name="Montáž nového osvětlení" color="#8cb6ce" meeting="false" start="2021-05-31" duration="58" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="88" name="Průběžný výkaz namontovaných svítidel" color="#8cb6ce" meeting="false" start="2021-05-31" duration="58" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="607" name="Kontrola montážních prací" color="#8cb6ce" meeting="false" start="2021-08-16" duration="9" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="96" name="Výměna elektro a kabeláže" meeting="false" start="2021-04-26" duration="6" complete="0" expand="true">
+            <task id="97" name="Ustanovení pracovních týmů" color="#8cb6ce" meeting="false" start="2021-04-26" duration="3" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="98" name="Rozdělení rolí v týmu" color="#8cb6ce" meeting="false" start="2021-04-28" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="879" name="Vytvoření harmonogramu prací" color="#8cb6ce" meeting="false" start="2021-04-29" duration="3" complete="0" thirdDate="2021-04-29" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="105" name="Odvoz materiálu na místo určení v garážích" meeting="false" start="2021-05-03" duration="6" complete="0" expand="true">
+            <task id="901" name="Čas potřebný na přesun automobilů z dotčeného patra" color="#8cb6ce" meeting="false" start="2021-05-03" duration="6" complete="0" thirdDate="2021-05-03" thirdDate-constraint="0" expand="true"/>
+            <task id="106" name="Kontaktování zákazníka o datu příjezdu" color="#8cb6ce" meeting="false" start="2021-05-06" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="108" name="Umístění materiálu na odstavné plochy" color="#8cb6ce" meeting="false" start="2021-05-10" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="99" name="Získání materiálu ze skladu" meeting="false" start="2021-05-05" duration="1" complete="0" expand="true">
+            <task id="100" name="Vyzvednutí firemního automobilu" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="101" name="Příjem ve skladu" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="102" name="Odvoz části materiálu do skladu HnaZak" meeting="false" start="2021-05-05" duration="3" complete="0" expand="true">
+            <task id="103" name="Příjem ve skladu" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+            <task id="104" name="Zapsání objemu materiálu do GTWD" color="#8cb6ce" meeting="false" start="2021-05-07" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="109" name="Demontáž stávající kabeláže" color="#8cb6ce" meeting="false" start="2021-05-10" duration="33" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        <task id="111" name="Instalace nové kabeláže" color="#8cb6ce" meeting="false" start="2021-05-10" duration="58" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        <task id="110" name="Demontáž stávajících rozvaděčů" color="#8cb6ce" meeting="false" start="2021-06-22" duration="7" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        <task id="157" name="Prostor na dodělávky dle přání zákazníka" color="#8cb6ce" meeting="false" start="2021-07-13" duration="10" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        <task id="112" name="Kompletace rozvaděčů" color="#8cb6ce" meeting="false" start="2021-07-23" duration="8" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        <task id="113" name="Spojení rozvaděčů a kabeláže a světel" color="#8cb6ce" meeting="false" start="2021-08-03" duration="6" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true"/>
+        <task id="585" name="Kontrola montážních prací" meeting="false" start="2021-08-09" duration="9" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
