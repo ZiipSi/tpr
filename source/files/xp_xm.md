@@ -92,7 +92,9 @@ Agility approach byl vymyšlen z důvodu problémů/krize ve vývoji software.
 
 Je více důvodů této krize a problémů např. neustálá změna požadavků ze strany zákazníka nebo rychlá změna okolního prostředí, HW apod.
 Toto mělo za následek vytvoření tzv. „Manifesto for Agile Software Development“. Je vidět, že se toto zajímá převážně o SW. Ale pokud dojde k přeformulování některých částí, je toto možné aplikovat i na výrobní procesy.
+
 **Nyní upravené principy:**
+
 + Naší nejvyšší prioritou je uspokojení zákazníka pomocí včasného a kvalitního dodání hodnotného produktu.
 + Změny požadavků jsou možné i v pokročilém stádiu vývoje. Díky těmto změnám se vylepšuje pozice zákazníka a jeho výhoda na trhu.
 + Často dodávejte potřebné funkční moduly nebo prototypy. Často v rámci měsíců nebo týdnů. Preferujte však kratší rozestupy mezi prototypy.
