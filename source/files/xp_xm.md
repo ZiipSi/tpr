@@ -130,3 +130,13 @@ Důležitý poznatek, že kvalita a správná funkčnost je důležitá u zákaz
 Schopnost upravení postupu návrhu/výroby pro malé nebo velké cíle.
 ### Partner Patterns
 Schopnost zahrnout již funkční produkty nebo zkušenosti třetích stran.
+
+
+# Zdroje
+## XP
++ [Agile Alliance](https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
+)
++ [Extreme Programming](http://www.extremeprogramming.org)
+
+## XM
++ [M. Molhanec, "Extreme manufacturing — Agility to greater productivity and quality," Proceedings of the 2014 37th International Spring Seminar on Electronics Technology, Dresden, Germany, 2014, pp. 164-169, doi: 10.1109/ISSE.2014.6887585.](https://ieeexplore.ieee.org/document/6887585)
