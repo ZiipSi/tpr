@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  23 MAR 2021 22:24
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  26 MAR 2021 18:46
  restricted system commands enabled.
 **tpr.tex
 (./tpr.tex
@@ -3447,7 +3447,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19<./files/gantt_half2.png>] [20] [21]
 
-LaTeX Warning: Empty bibliography on input line 976.
+LaTeX Warning: Empty bibliography on input line 977.
 
 Excluding 'comment' comment. (./tpr.aux)
 
