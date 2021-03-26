@@ -4,7 +4,7 @@
 Jedná se o soubory určené výhradně pro prezentaci projektu „Rekonstrukce osvětlení a kabeláže OC Trnávka 2021“.
 Zhotovitelé: **Petr Zakopal**, **Jan Hnát**.
 
-Předmět je vyučován na Fakultě elektrotechnické na ČVUT v Praze v letním semestru roku 2021.
+Předmět je vyučován na Fakultě elektrotechnické ČVUT v Praze v letním semestru roku 2021.
 
 ## Ke stažení
 + [Pracovní soubor PDF dokumentace](/source/tpr.pdf)
