@@ -24,4 +24,4 @@ Předmět je vyučován na Fakultě elektrotechnické ČVUT v Praze v letním se
 + Práce byla původně archivována na GitLab FEL, ale následně přenesena na GitHub pro prohlížení. Proto není vidět celá historie projektu.
 + Práce na projektu do 26.03.2021 trvala cca 50 hodin, možná více.
 + Zadávajícím investorem byl **Ing. Petr Gric, Ph.D., MBA** a **Ing. Martin Molhanec, CSc.**
-+ Pro vložení nezalomitelných mezer byl použit program Vlna, autorem je **RNDr. Petr Olšák**, dostupné z [Stránky RNDr. Petra Olšáka](http://petr.olsak.net), adresář [Program Vlna](http://petr.olsak.net/ftp/olsak/vlna/)
++ Pro vložení nezalomitelných mezer byl použit program Vlna, autorem je **RNDr. Petr Olšák**, dostupný ze [Stránky RNDr. Petra Olšáka](http://petr.olsak.net), adresář [Program Vlna](http://petr.olsak.net/ftp/olsak/vlna/)
