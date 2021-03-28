@@ -968,8 +968,12 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 			\item celková kontrola svítidel po 80 \% předpokládané doby životnosti svítidel,
 			\item pravidelná výměna zdrojů světla,
 			\item pravidelné servisní práce rozváděčů.
-		\end{enumerate}
-	
+		\end{enumerate}%
+
+	V případě reálného projektu by bylo možné udělat podrobněji WBS s jednotlivými pod aktivitami. Avšak v této úvodní studii to tvořitelé považují za dostatečné.\par
+	Reálný projekt by byl možná jednodušší 		
+		
+	\vspace*{11pt}
 		Projektová dokumentace, prezentace a přílohy jsou volně dostupné v~průběhu  letního semestru 2021 na webové adrese \url{https://ptzk.cz/tpr} a slouží pouze ke studijním účelům. Jakékoliv kopírování a šíření díla bez předchozího souhlasu autorů je zakázáno. Výjimku tvoří citace.
 
 \newpage
