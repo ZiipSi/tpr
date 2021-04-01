@@ -88,7 +88,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Realizace}{12}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Organizační struktura, team a role}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Organizační struktura, team a role}{12}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.1.1}Matice zodpovědnosti}{14}{subsubsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
