@@ -517,17 +517,17 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		{
 		\begin{tabular}{ !{\vrule width 2pt} p{5cm} | p{5cm} | p{5cm} | p{5cm} | p{5cm} !{\vrule width 2pt} }
 \noalign{\hrule height 2pt}
-	 & \textbf{hierarchie cílů} & \textbf{objektivně ověřitelné ukazetele} & \textbf{prostředky k~ověření} & \textbf{vnější předpoklady a rizika}  \\ \noalign{\hrule height 2pt}
+	\textbf{id} & \textbf{hierarchie cílů} & \textbf{objektivně ověřitelné ukazetele} & \textbf{prostředky k~ověření} & \textbf{vnější předpoklady a rizika}  \\ \noalign{\hrule height 2pt}
 	\multicolumn{5}{!{\vrule width 2pt}c!{\vrule width 2pt}}{\textbf{cíl projektu}}    \\ \noalign{\hrule height 2pt}
-	 & osvětlení vyhovující všem normám a hygienickým předpisů je nainstalováno & počet připomínek k~osvětlení od revizního technika & zpráva revizního technika & porucha svítidel, vyšší moc\   \\ \hline
-	 & nevyhovující kabeláž a svítidla jsou odstraněny & počet odstraněných svítidel a metrů kabeláže & pracovní deník & ztráta deníku\   \\ \hline
-	 & jsou nainstalována vyhovující svítidla a kabeláž & počet namontovaných vyhovujících svítidel a kabeláže  & pracovní deník & \ ztráta deníku
+	\cellcolor{lightgray} & osvětlení vyhovující všem normám a hygienickým předpisů je nainstalováno & počet připomínek k~osvětlení od revizního technika & zpráva revizního technika & porucha svítidel, vyšší moc\   \\ \hline
+	\cellcolor{lightgray} & nevyhovující kabeláž a svítidla jsou odstraněny & počet odstraněných svítidel a metrů kabeláže & pracovní deník & ztráta deníku\   \\ \hline
+	\cellcolor{lightgray} & jsou nainstalována vyhovující svítidla a kabeláž & počet namontovaných vyhovujících svítidel a kabeláže  & pracovní deník & \ ztráta deníku
    \\ \hline
-	 & zrakový komfort je zvýšen & hodnota osvětlenosti
+	\cellcolor{lightgray} & zrakový komfort je zvýšen & hodnota osvětlenosti
   & zpráva revizního technika & špatný výpočet \\ \hline
-	 & příspěvek z~fondu je získán & peněžitá částka & výpis z~účtu klienta, zpráva příslušného ogránu & nevyhovující kritéria, nesprává přihláška, zamítnutí žádosti\\ \noalign{\hrule height 2pt}
+	\cellcolor{lightgray} & příspěvek z~fondu je získán & peněžitá částka & výpis z~účtu klienta, zpráva příslušného ogránu & nevyhovující kritéria, nesprává přihláška, zamítnutí žádosti\\ \noalign{\hrule height 2pt}
 	\multicolumn{5}{!{\vrule width 2pt}c!{\vrule width 2pt}}{\textbf{účel projektu}}   \\ \noalign{\hrule height 2pt}
-	x & výměna stávajícího osvětlení a kabeláže v~garážích oc za vyhovující a předání vyhovujícího díla zákazníkovi & všechny svítidla v~garážích a všechna kabelová instalace je vyměněna do 30.09.2021 a je funkční a předána zákazníkovi & předávací protokol & zpoždění harmonogramu, vyšší moc\\ \noalign{\hrule height 2pt}
+	\cellcolor{lightgray} & výměna stávajícího osvětlení a kabeláže v~garážích oc za vyhovující a předání vyhovujícího díla zákazníkovi & všechny svítidla v~garážích a všechna kabelová instalace je vyměněna do 30.09.2021 a je funkční a předána zákazníkovi & předávací protokol & zpoždění harmonogramu, vyšší moc\\ \noalign{\hrule height 2pt}
 	\multicolumn{5}{!{\vrule width 2pt}c!{\vrule width 2pt}}{\textbf{výstupy projektu}}  \\ \noalign{\hrule height 2pt}
 	1 & dokumentace zajištěna & veškerá dokumentace zhotovena do 30.09.2021 & jednotlivé dokumenty v~originálu, či v~kopíích, legislativní povolení možné v~notářsky ověřených kopiích & změna legislativních podmínek státu, změna normy, změna situace ovlivněná pandemií  \  \\ \hline
 	2 & ekologická likvidace zastaralého materiálu & likvidační protokol předán s~veškerou dokumentací. & originál protokolu přiložen ke kompletní dokumentaci, kopie přiložené do ostatních dokumentací a scan přiložen k~elektronické verzi dokumentace & odběrové místo nebude schopno odebrat materiál, bude nutnost odvést starý materiál na jiné, vzdálenější místo  \\ \hline
