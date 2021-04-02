@@ -326,7 +326,7 @@
 				SW &\multicolumn{2}{c|}{}& 15000\\ \hline
 				ostatní náklady &\multicolumn{2}{c|}{}& 21000\\ \noalign{\hrule height 2pt}
 				celková cena &\multicolumn{2}{c|}{}& 1568000\\ \hline
-				rozpočet &\multicolumn{2}{c|}{}& 1588000\\ \hline
+				rozpočet &\multicolumn{2}{c|}{}& 1588000\\ \noalign{\hrule height 2pt}
 				
 				\end{tabular}
 			\caption{Rozpočet verze s~LED svítidly}
@@ -377,7 +377,7 @@
 				SW &\multicolumn{2}{c|}{}& 15000\\ \hline
 				ostatní náklady &\multicolumn{2}{c|}{}& 21000\\ \noalign{\hrule height 2pt}
 				celková cena &\multicolumn{2}{c|}{}& 1729700\\ \hline
-				rozpočet &\multicolumn{2}{c|}{}& 175000\\ \hline
+				rozpočet &\multicolumn{2}{c|}{}& 175000\\ \noalign{\hrule height 2pt}
 				
 				\end{tabular}
 			\caption{Rozpočet verze s~zářivkovými svítidly}
@@ -651,7 +651,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				projektant elektro kontrola \\ \hline
 				automatizační technik \\ \hline
 				software developer - pokud bude potřeba \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				tým 1 \\ \hline
 				řidící pracovník na pracovišti \\ \hline
 				pracovník 1 \\ \hline
@@ -660,7 +660,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				pracovník 4 \\ \hline
 				pracovník 5 \\ \hline
 				pracovník 6 \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				tým 2 \\ \hline
 				řídící pracovník na pracovišti \\ \hline
 				pracovník 1 \\ \hline
@@ -669,11 +669,11 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				pracovník 4 \\ \hline
 				pracovník 5 \\ \hline
 				pracovník 6 \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				tým 3 \\ \hline
 				pracovník 1 \\ \hline
 				pracovník 2 \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				kontaktní osoba projektu \\ \hline
 				právní zařizovatel \\ \hline
 				objednavatel materiálu + externích prací \\ \hline
@@ -681,7 +681,6 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				zpracovatel dokumentace \\ \hline
 				účetní projektu \\ \hline
 				vedoucí projektu\\ \noalign{\hrule height 2pt}
-		
 			\end{tabular}
 	%	}
 		\caption{Organizační struktura pracovníků podílejících se na projektu}
@@ -693,7 +692,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		{
 		
 			\begin{tabular}{ !{\vrule width 2pt} p{3cm} !{\vrule width 2pt} p{1.5cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{0.75cm} | p{0.75cm} | p{0.75cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} !{\vrule width 2pt} }\noalign{\hrule height 2pt}
-				 & projektant elektro & projektant elektro kontrola & automatizační technik & software developer & řidící pracovník na pracovišti & tým 1 & tým 2 & tým 3 & kontaktní osoba projektu & právní zařizovatel & revizní technik & zpracovatel dokumentace & účetní projektu & vedoucí projektu & objednatel materiálu \\ \noalign{\hrule height 2pt}
+			\cellcolor{lightgray}	Rekonstrukce osvětlení a kabeláže garáží OC Trnávka 2021 & projektant elektro & projektant elektro kontrola & automatizační technik & software developer & řidící pracovník na pracovišti & tým 1 & tým 2 & tým 3 & kontaktní osoba projektu & právní zařizovatel & revizní technik & zpracovatel dokumentace & účetní projektu & vedoucí projektu & objednatel materiálu \\ \noalign{\hrule height 2pt}
 	legislativní úkony &  &  &  &  &  &  &  &  &  & p &  &  &  & os &  \\ \hline
 	zjištění aktuálního skutečného stavu & po & s~&  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
 	návrh elektroinstalace & po & s~&  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
@@ -925,7 +924,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 \resizebox{1 \textwidth}{!}
 		{
 		\begin{tabular}{!{\vrule width 2pt} c | c | c | c | c !{\vrule width 2pt}}\noalign{\hrule height 2pt}
-		\textbf{Projekt:} Rekonstrukce osvětlení a kabeláže garáži OC Trnávka 2021 & \textbf{Zpracoval:} Jan Hnát a Petr Zakopal & \textbf{Vytvořeno: }20.03.2021 & \textbf{Verze} 0.1 & \textbf{Kontrola:} Firma HnaZak\\\noalign{\hrule height 2pt}
+	\cellcolor{lightgray}	\textbf{Projekt:} Rekonstrukce osvětlení a kabeláže garáži OC Trnávka 2021 & \cellcolor{lightgray}\textbf{Zpracoval:} Jan Hnát a Petr Zakopal &\cellcolor{lightgray} \textbf{Vytvořeno: }20.03.2021 & \cellcolor{lightgray}\textbf{Verze} 0.1 & \cellcolor{lightgray}\textbf{Kontrola:} Firma HnaZak\\\noalign{\hrule height 2pt}
 		
 		\end{tabular}
 		}
