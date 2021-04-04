@@ -8,7 +8,9 @@ Předmět je vyučován na Fakultě elektrotechnické ČVUT v Praze v letním se
 
 ## Ke stažení
 + [Pracovní soubor PDF dokumentace](/source/tpr.pdf)
-+ [Prezentace k dokumentaci](/source/files/prezentace.pptx)
++ [Celková prezentace k dokumentaci](/source/files/prezentace.pptx)
++ [První prezentace k dokumentaci](/source/files/Hnat_Zakopal_TPR_prezentace_1.pptx)
++ [Druhá prezentace k dokumentaci](/source/files/Hnat_Zakopal_TPR_prezentace_2.pptx)
 + [Prezentace k seminární práci](/source/files/prezentace_sem.pptx)
 
 ## Ke čtení
