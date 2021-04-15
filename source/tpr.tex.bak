@@ -260,10 +260,10 @@
 		Při rekonstrukci osvětlení dojde ke správné výměně svítidel, která již nevyhovují odpovídajícím normám a příslušným právním předpisům. Díky modernizaci kabelových rozvodů napájících osvětlení dojde k~minimalizaci vzniku možného požáru či výpadku osvětlení.\par
 		Projekt rekonstrukce bude ukončen, předán a uveden do provozu do 30.10.2021. Výměna osvětlení a kabeláže bude provedena tak, že nebude nutné osvětlení, kromě drobných servisních oprav, alespoň 9 let rekonstruovat.
 		\subsubsection{Mise - firma HnaZak}
-		Naší misí je relizace projektů v oborech elektro, automatizace, stavby a architektury, které budou úspěšné a dále bezproblémové. Naše firma zaměstnává absolventy rpůmyslových škol při jejich studiu i po něm. Snaha firmy je směřována na dodávání kvalitních služeb s pomocí kvalitních výrobků.
+		Naší misí je realizace projektů v~oborech elektro, automatizace, stavby a architektury, které budou úspěšné a dále bezproblémové. Naše firma zaměstnává absolventy průmyslových škol při jejich studiu i po něm. Snaha firmy je směřována na dodávání kvalitních služeb s~pomocí kvalitních výrobků.
 		
 		\subsubsection{Vize - firma HnaZak}
-		Naší misí je být neustále rozvíjející se firma pohybující se na trzích elektro, automatizace, staveb a architektury. Firma HnaZak se dále bude snižit diversifikovat své portfolio nabízených služeb tak, aby byla nezávislá na zájmech populace či předpokládaných negativních vlivech. Vizí firmy je minimalizace nekvalitních staveb a elektrických aplikací v průmyslu i mimo něj.
+		Naší misí je být neustále rozvíjející se firma pohybující se na trzích elektro, automatizace, staveb a architektury. Firma HnaZak se dále bude snižit diversifikovat své portfolio nabízených služeb tak, aby byla nezávislá na zájmech populace či předpokládaných negativních vlivech. Vizí firmy je minimalizace nekvalitních staveb a elektrických aplikací v~průmyslu i mimo něj.
 		
 	\subsection{stav „AS IS“}
 		Vnitřní osvětlení garáží OC Trnávka se nachází v~nevyhovujícím stavu. Nejsou splněny aktuálně platné hygienické normy a příslušné právní předpisy. Kabeláž je ve stavu nevhodném pro dlouhodobý provoz. K~dispozici je pouze nevyhovující a neúplná dokumentace o~stávajícím stavu elektroinstalace.
@@ -515,7 +515,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 
 
 
-	\subsection{LogFrame - logický rámec projektu}
+	\subsection{LogFrame - logický rámec projektu}\label{sec:logframe}
 			LogFrame je rozdělen na dvě stránky z~důvodu zlepšení čitelnosti jednotlivých prvků. \textit{Pozn. Byla přidána také ukázka klíčových aktivit z~důvodu procvičení, která nebyla v~projektu vyžadována}
 	\begin{table}[H]
 	\centering
@@ -630,7 +630,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 	
 \section{Úvodní studie}
 	\subsection{Funkční požadavky}
-		Dojde k~odstranění stávajících kabelových rozvodů napájících stávající nevyhovující osvětlení. Toto osvětlení bude taktéž demontováno. Následně budou umístěny moderní kabelové rozvody napájící moderní osvětlení, jež odpovídá platným normám a právním předpisům. Demontovaný materiál bude odvezen z~pracoviště a ekologicky zlikvidován. Protokol o~ekologické likvidaci je zajištěn. Součástí projektu je i kompletní dokumentace, jež bude předána zákazníkovi při podpisu předávacího protokolu.
+		Dojde k~odstranění stávajících kabelových rozvodů napájících stávající nevyhovující osvětlení. Toto osvětlení bude taktéž demontováno. Následně budou umístěny moderní kabelové rozvody napájící moderní osvětlení, jež odpovídá platným normám a právním předpisům České republiky. Demontovaný materiál bude odvezen z~pracoviště a ekologicky zlikvidován. Protokol o~ekologické likvidaci je zajištěn. Součástí projektu je i kompletní dokumentace, jež bude předána zákazníkovi při podpisu předávacího protokolu. Vešekeré objektivně ověřitelné ukazatele jsou součástí \hyperref[sec:logframe]{LogFrame}.
 	\subsection{Nefunkční požadavky}
 		Je omezena plocha určená ke skladování materiálu určeného k~montáži i materiálu určeného k~likvidaci. Materiál určený k~likvidaci bude skladován v~kontejneru, který bude umístěn tak, aby neblokoval žádné pěší trasy. Tento sběrný kontejner musí být umístěn tak, aby se minimalizovala nutnost jeho přesunu, protože pouze pronajímatel těchto kontejnerů má možnost s~ním manipulovat.\par
 		Protože je výška vjezdu do garáží menší, než výška stropu, na který se budou montovat svítidla, je nutnost zařídit speciální vysokozdvižnou plošinu, která je dostatečně kompaktní pro vjezd, ale může se dostatečně roztáhnout pro montáž do výšky potřebné pro montáž svítidel.\par
