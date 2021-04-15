@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  15 APR 2021 17:22
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  15 APR 2021 17:31
  restricted system commands enabled.
 **tpr.tex
 (./tpr.tex
@@ -3486,11 +3486,11 @@ Package logreq Info: Writing requests to 'tpr.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  48983 strings out of 478822
- 244182,2373549 words of node,token memory allocated
+ 244164,2373549 words of node,token memory allocated
  823 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 17 attribute, 105 g
 lue_spec, 10 attribute_list, 4 write nodes
-   avail lists: 1:15,2:6139,3:1298,4:204,5:1193,6:858,7:17126,8:97,9:7246,10:11,
+   avail lists: 1:15,2:6139,3:1298,4:205,5:1193,6:858,7:17126,8:98,9:7246,10:11,
 11:1792
  66879 multiletter control sequences out of 65536+600000
  89 fonts using 26039831 bytes
