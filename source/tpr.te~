@@ -254,11 +254,16 @@
 				\end{enumerate}
 \section{Strategie - business}
 	\subsection{Deklarace záměru}
-		\subsubsection{Mise}
+		\subsubsection{Mise - projekt}
 		Výměna stávajícího nevyhovujícího osvětlení v~podzemních garážích OC Trnávka za nové vyhovující. Součástí výměny svítidel je taktéž výměna stávajícího nevyhovujícího kabelového rozvodu elektrické energie napájející rekonstruované osvětlení.
-		\subsubsection{Vize}
+		\subsubsection{Vize - projekt}
 		Při rekonstrukci osvětlení dojde ke správné výměně svítidel, která již nevyhovují odpovídajícím normám a příslušným právním předpisům. Díky modernizaci kabelových rozvodů napájících osvětlení dojde k~minimalizaci vzniku možného požáru či výpadku osvětlení.\par
 		Projekt rekonstrukce bude ukončen, předán a uveden do provozu do 30.10.2021. Výměna osvětlení a kabeláže bude provedena tak, že nebude nutné osvětlení, kromě drobných servisních oprav, alespoň 9 let rekonstruovat.
+		\subsubsection{Mise - firma HnaZak}
+		Naší misí je realizace projektů v oborech elektro, automatizace, stavby a architektury, které budou úspěšné a dále bezproblémové. Naše firma zaměstnává absolventy průmyslových škol při jejich studiu i po něm. Snaha firmy je směřována na dodávání kvalitních služeb s pomocí kvalitních výrobků.
+		
+		\subsubsection{Vize - firma HnaZak}
+		Naší misí je být neustále rozvíjející se firma pohybující se na trzích elektro, automatizace, staveb a architektury. Firma HnaZak se dále bude snižit diversifikovat své portfolio nabízených služeb tak, aby byla nezávislá na zájmech populace či předpokládaných negativních vlivech. Vizí firmy je minimalizace nekvalitních staveb a elektrických aplikací v průmyslu i mimo něj.
 		
 	\subsection{stav „AS IS“}
 		Vnitřní osvětlení garáží OC Trnávka se nachází v~nevyhovujícím stavu. Nejsou splněny aktuálně platné hygienické normy a příslušné právní předpisy. Kabeláž je ve stavu nevhodném pro dlouhodobý provoz. K~dispozici je pouze nevyhovující a neúplná dokumentace o~stávajícím stavu elektroinstalace.
@@ -326,7 +331,7 @@
 				SW &\multicolumn{2}{c|}{}& 15000\\ \hline
 				ostatní náklady &\multicolumn{2}{c|}{}& 21000\\ \noalign{\hrule height 2pt}
 				celková cena &\multicolumn{2}{c|}{}& 1568000\\ \hline
-				rozpočet &\multicolumn{2}{c|}{}& 1588000\\ \hline
+				rozpočet &\multicolumn{2}{c|}{}& 1588000\\ \noalign{\hrule height 2pt}
 				
 				\end{tabular}
 			\caption{Rozpočet verze s~LED svítidly}
@@ -377,7 +382,7 @@
 				SW &\multicolumn{2}{c|}{}& 15000\\ \hline
 				ostatní náklady &\multicolumn{2}{c|}{}& 21000\\ \noalign{\hrule height 2pt}
 				celková cena &\multicolumn{2}{c|}{}& 1729700\\ \hline
-				rozpočet &\multicolumn{2}{c|}{}& 175000\\ \hline
+				rozpočet &\multicolumn{2}{c|}{}& 175000\\ \noalign{\hrule height 2pt}
 				
 				\end{tabular}
 			\caption{Rozpočet verze s~zářivkovými svítidly}
@@ -513,26 +518,27 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 	\subsection{LogFrame - logický rámec projektu}
 			LogFrame je rozdělen na dvě stránky z~důvodu zlepšení čitelnosti jednotlivých prvků. \textit{Pozn. Byla přidána také ukázka klíčových aktivit z~důvodu procvičení, která nebyla v~projektu vyžadována}
 	\begin{table}[H]
+	\centering
 		\resizebox{1 \textwidth}{!}
 		{
 		\begin{tabular}{ !{\vrule width 2pt} p{5cm} | p{5cm} | p{5cm} | p{5cm} | p{5cm} !{\vrule width 2pt} }
 \noalign{\hrule height 2pt}
-	 & \textbf{hierarchie cílů} & \textbf{objektivně ověřitelné ukazetele} & \textbf{prostředky k~ověření} & \textbf{vnější předpoklady a rizika}  \\ \noalign{\hrule height 2pt}
+	\textbf{id} & \textbf{hierarchie cílů} & \textbf{objektivně ověřitelné ukazetele} & \textbf{prostředky k~ověření} & \textbf{vnější předpoklady a rizika}  \\ \noalign{\hrule height 2pt}
 	\multicolumn{5}{!{\vrule width 2pt}c!{\vrule width 2pt}}{\textbf{cíl projektu}}    \\ \noalign{\hrule height 2pt}
-	 & osvětlení vyhovující všem normám a hygienickým předpisů je nainstalováno & počet připomínek k~osvětlení od revizního technika & zpráva revizního technika & porucha svítidel, vyšší moc\   \\ \hline
-	 & nevyhovující kabeláž a svítidla jsou odstraněny & počet odstraněných svítidel a metrů kabeláže & pracovní deník & ztráta deníku\   \\ \hline
-	 & jsou nainstalována vyhovující svítidla a kabeláž & počet namontovaných vyhovujících svítidel a kabeláže  & pracovní deník & \ ztráta deníku
+	\cellcolor{lightgray} & osvětlení vyhovující všem normám a hygienickým předpisů je nainstalováno & počet připomínek k~osvětlení od revizního technika & zpráva revizního technika & porucha svítidel, vyšší moc\   \\ \hline
+	\cellcolor{lightgray} & nevyhovující kabeláž a svítidla jsou odstraněny & počet odstraněných svítidel a metrů kabeláže & pracovní deník & ztráta deníku\   \\ \hline
+	\cellcolor{lightgray} & jsou nainstalována vyhovující svítidla a kabeláž & počet namontovaných vyhovujících svítidel a kabeláže  & pracovní deník & \ ztráta deníku
    \\ \hline
-	 & zrakový komfort je zvýšen & hodnota osvětlenosti
+	\cellcolor{lightgray} & zrakový komfort je zvýšen & hodnota osvětlenosti
   & zpráva revizního technika & špatný výpočet \\ \hline
-	 & příspěvek z~fondu je získán & peněžitá částka & výpis z~účtu klienta, zpráva příslušného ogránu & nevyhovující kritéria, nesprává přihláška, zamítnutí žádosti\\ \noalign{\hrule height 2pt}
+	\cellcolor{lightgray} & příspěvek z~fondu je získán & peněžitá částka & výpis z~účtu klienta, zpráva příslušného ogránu & nevyhovující kritéria, nesprává přihláška, zamítnutí žádosti\\ \noalign{\hrule height 2pt}
 	\multicolumn{5}{!{\vrule width 2pt}c!{\vrule width 2pt}}{\textbf{účel projektu}}   \\ \noalign{\hrule height 2pt}
-	x & výměna stávajícího osvětlení a kabeláže v~garážích oc za vyhovující a předání vyhovujícího díla zákazníkovi & všechny svítidla v~garážích a všechna kabelová instalace je vyměněna do 30.09.2021 a je funkční a předána zákazníkovi & předávací protokol & zpoždění harmonogramu, vyšší moc\\ \noalign{\hrule height 2pt}
+	\cellcolor{lightgray} & výměna stávajícího osvětlení a kabeláže v~garážích oc za vyhovující a předání vyhovujícího díla zákazníkovi & všechny svítidla v~garážích a všechna kabelová instalace je vyměněna do 30.09.2021 a je funkční a předána zákazníkovi & předávací protokol & zpoždění harmonogramu, vyšší moc\\ \noalign{\hrule height 2pt}
 	\multicolumn{5}{!{\vrule width 2pt}c!{\vrule width 2pt}}{\textbf{výstupy projektu}}  \\ \noalign{\hrule height 2pt}
 	1 & dokumentace zajištěna & veškerá dokumentace zhotovena do 30.09.2021 & jednotlivé dokumenty v~originálu, či v~kopíích, legislativní povolení možné v~notářsky ověřených kopiích & změna legislativních podmínek státu, změna normy, změna situace ovlivněná pandemií  \  \\ \hline
-	2 & ekologická likvidace zastaralého materiálu & likvidační protokol předán s~veškerou dokumentací. & originál protokolu přiložen ke kompletní dokumentaci, kopie přiložené do ostatních dokumentací a scan přiložen k~elektronické verzi dokumentace & odběrové místo nebude schopno odebrat materiál, bude nutnost odvést starý materiál na jiné, vzdálenější místo  \\ \hline
-	3 & demontáž zastaralých svítidel a montáž nových vyhovujících & žádné zastaralé svítidlo není namontováno & kontrola všech svítidel, zapsání čísla svítidla při montáži do seznamu svítidel & nebudou dodána požadovaná svítidla včas  \\ \hline
-	4 & schválena dotace z~fondu pro revitalizace veřejně prospěšných objektů & potvrzení o~získání dotace přijato x & potvrzení o~příjmu dotace + peníze na účtě investora & zamítnutí dotace z~fondu, vyčerpání peněz z~fondu dřív, než o~ně bude zažádáno  \\ \hline
+	2 & zastaralý materiál je ekologicky likvidován & likvidační protokol předán s~veškerou dokumentací. & originál protokolu přiložen ke kompletní dokumentaci, kopie přiložené do ostatních dokumentací a scan přiložen k~elektronické verzi dokumentace & odběrové místo nebude schopno odebrat materiál, bude nutnost odvést starý materiál na jiné, vzdálenější místo  \\ \hline
+	3 & zastaralá svítidla jsou demontována a nových vyhovující jsou montována & žádné zastaralé svítidlo není namontováno & kontrola všech svítidel, zapsání čísla svítidla při montáži do seznamu svítidel & nebudou dodána požadovaná svítidla včas  \\ \hline
+	4 &  dotace z~fondu pro revitalizace veřejně prospěšných objektů je schválena & potvrzení o~získání dotace přijato x & potvrzení o~příjmu dotace + peníze na účtě investora & zamítnutí dotace z~fondu, vyčerpání peněz z~fondu dřív, než o~ně bude zažádáno  \\ \hline
 	5 & finanční krytí zajištěno & finanční krytí zajištěno do dne 27.06.2021 & blokace částky xx v~GTWD a dostatečné množství peněz na účtě pro projektové výdaje & nedostatečné finance na účtě pro projektové výdaje, nedostatečné finance v~GTWD, nutno zajistit rezervní krytí financování projektu   \\ \hline
 	6 & materiál dodán & část materiálu se nachází ve skladě hnazak a část na stavbě v~garážích & dodací listy, protokoly o~jakosti a kompletnosti, protokol o~přejímce zboží, zápisy spotřebovaného materiálu v~denících a GTWD & možné časové prodlení dodávky, nutnost časové mezery mezi objednávkou a začátkem stavby  \\ \hline
 	7 & instalace je v~souladu s~normami a příslušnými právními předpisy & vyhovující revizní zpráva technika obdržena do 10.09.2021 & revizní zpráva je přiložena v~dokumentaci a založena v~GTWD & instalace nebude odpovídat normám a bude ji třeba částečně doplnit či předělat, vložen čas pro připomínky klienta a revizního technika \\ \hline
@@ -551,6 +557,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		\end{table}
 		
 		\begin{table}[H]
+		\centering
 		\resizebox{1 \textwidth}{!}
 		{
 		\begin{tabular}{ !{\vrule width 2pt} p{5cm} | p{5cm} | p{5cm} | p{5cm} | p{5cm} !{\vrule width 2pt} }
@@ -637,8 +644,8 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 	
 \section{Realizace}
 	\subsection{Organizační struktura, team a role}
-	Je možné pozorovat, že se organizační struktura dělí na hlavní čtyři nebo pět skupin. První skupina skládající se z projektantu elektro, z kontroly, automatizačního technika a software developera je skupina pracovníků potřebná nejvíce v inicializační fázi projektu a na jeho začátku, také může být funkční v průběhu realizace jako kontrolní část a pro potřebné konzultace.\par
-	Skupiny „tým 1“ a „tým 2“ jsou prakticky identické, krom jednotlivých pracovníků. Pravidelně dochází ke střídání denních a nočních směn jednotlivých týmů tak, aby se rovnoměrně tyto směny rozložily. Nedochází k přechodu pracovníků z jednoho týmu do druhého, nebo pokud je to nutné, tak ve velmi omezené míře. Na začátku realizační fáze projektu budou vždy pracovníci 1 -6 pracovat na demontáži a montáži kabeláže, následně po určité době, kdy bude část instalace kabeláže dokončena, dojde k tomu, že pracovníci 4 - 6 se oddělí a zajistí demontáž a montáž svítidel. Po dokončení instalace kabeláže se k pracovníkům 4 - 6 přidají pracovníci 1 - 3.\par
+	Je možné pozorovat, že se organizační struktura dělí na hlavní čtyři nebo pět skupin. První skupina skládající se z~projektantu elektro, z~kontroly, automatizačního technika a software developera je skupina pracovníků potřebná nejvíce v~inicializační fázi projektu a na jeho začátku, také může být funkční v~průběhu realizace jako kontrolní část a pro potřebné konzultace.\par
+	Skupiny „tým 1“ a „tým 2“ jsou prakticky identické, krom jednotlivých pracovníků. Pravidelně dochází ke střídání denních a nočních směn jednotlivých týmů tak, aby se rovnoměrně tyto směny rozložily. Nedochází k~přechodu pracovníků z~jednoho týmu do druhého, nebo pokud je to nutné, tak ve velmi omezené míře. Na začátku realizační fáze projektu budou vždy pracovníci 1 -6 pracovat na demontáži a montáži kabeláže, následně po určité době, kdy bude část instalace kabeláže dokončena, dojde k~tomu, že pracovníci 4 - 6 se oddělí a zajistí demontáž a montáž svítidel. Po dokončení instalace kabeláže se k~pracovníkům 4 - 6 přidají pracovníci 1 - 3.\par
 	Tým 3 je samostatná skupina zajišťující demontáž, montáž, nastavení a seřízení rozváděčů.\par
 	Poslední skupina pracovníků jsou ti, jež jsou nepostradatelní po celou dobu vytváření projektu. Krom tohoto projektu se mouhou podílet i na jiných, kde budou disponovat většinou podobnou nebo stejnou rolí.
 		\begin{table}[H]
@@ -651,7 +658,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				projektant elektro kontrola \\ \hline
 				automatizační technik \\ \hline
 				software developer - pokud bude potřeba \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				tým 1 \\ \hline
 				řidící pracovník na pracovišti \\ \hline
 				pracovník 1 \\ \hline
@@ -660,7 +667,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				pracovník 4 \\ \hline
 				pracovník 5 \\ \hline
 				pracovník 6 \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				tým 2 \\ \hline
 				řídící pracovník na pracovišti \\ \hline
 				pracovník 1 \\ \hline
@@ -669,11 +676,11 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				pracovník 4 \\ \hline
 				pracovník 5 \\ \hline
 				pracovník 6 \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				tým 3 \\ \hline
 				pracovník 1 \\ \hline
 				pracovník 2 \\ \hline
-				\  \\ \hline
+				\cellcolor{gray}  \\ \hline
 				kontaktní osoba projektu \\ \hline
 				právní zařizovatel \\ \hline
 				objednavatel materiálu + externích prací \\ \hline
@@ -681,7 +688,6 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 				zpracovatel dokumentace \\ \hline
 				účetní projektu \\ \hline
 				vedoucí projektu\\ \noalign{\hrule height 2pt}
-		
 			\end{tabular}
 	%	}
 		\caption{Organizační struktura pracovníků podílejících se na projektu}
@@ -693,7 +699,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		{
 		
 			\begin{tabular}{ !{\vrule width 2pt} p{3cm} !{\vrule width 2pt} p{1.5cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{0.75cm} | p{0.75cm} | p{0.75cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} !{\vrule width 2pt} }\noalign{\hrule height 2pt}
-				 & projektant elektro & projektant elektro kontrola & automatizační technik & software developer & řidící pracovník na pracovišti & tým 1 & tým 2 & tým 3 & kontaktní osoba projektu & právní zařizovatel & revizní technik & zpracovatel dokumentace & účetní projektu & vedoucí projektu & objednatel materiálu \\ \noalign{\hrule height 2pt}
+			\cellcolor{lightgray}	Rekonstrukce osvětlení a kabeláže garáží OC Trnávka 2021 & projektant elektro & projektant elektro kontrola & automatizační technik & software developer & řidící pracovník na pracovišti & tým 1 & tým 2 & tým 3 & kontaktní osoba projektu & právní zařizovatel & revizní technik & zpracovatel dokumentace & účetní projektu & vedoucí projektu & objednatel materiálu \\ \noalign{\hrule height 2pt}
 	legislativní úkony &  &  &  &  &  &  &  &  &  & p &  &  &  & os &  \\ \hline
 	zjištění aktuálního skutečného stavu & po & s~&  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
 	návrh elektroinstalace & po & s~&  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
@@ -916,16 +922,16 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
  		\end{figure}			
 		
 	\subsection{Analýza rizik}
-	K analýze ryzik byla použita metoda FMEA Table. Na Tab. \ref{tb:fmeat} je možné pozorovat tabulku vyhodnocení rizik pomocí RPN. \par
-	Nejvyšší hodnota RPN byla přiřazena k riziku funkčního procesu - dodávka materiálu, kdy dojde k dodání méně materiálu, než je objednáno, tím pádem dochází k celkovému posunutí harmonogramu, dochází k nutnosti řešení shonu o materiál, či jeho znovu dovezení do skladu nebo na místo určení.\par
-	Riziko s nejnižší hodnotou RPN je, pokud dojde k dodávce svítidel, kdy dojde k dodávce poškozených svítidel, nebo se svítidla poškodí při jejich manipulaci či převozu. Toto riziko je velmi dobře detekovatelné a lze proti němu udělat potřebná opatření. Také naše firma vždy objednává nejméně o 20 \% více materiálu, pokud by došlo k jeho zničení, poruše nebo k dodání vadných kusů, je vždy k dispozici jeho dostatečné použitelné množství.\par
-	Riziko s druhým nejnižším RPN je v části komunikace se zákazníkem, pokud zákazník s námi nekomunikuje dle požadavků pro správný průběh projektu. Je to závažné riziko, ale jeho pravděpodobnost je nízká a detekovatelnost vysoká a problém relativně lehce řešitelný. Místo předem domluvené komunikace se může použít více komunikačních kanálů, kam patří také osobní kontakt. Není předpokládáno, že by se zákazník vzájemné komunikaci „vyhýbal“.
+	K~analýze ryzik byla použita metoda FMEA Table. Na Tab. \ref{tb:fmeat} je možné pozorovat tabulku vyhodnocení rizik pomocí RPN. \par
+	Nejvyšší hodnota RPN byla přiřazena k~riziku funkčního procesu - dodávka materiálu, kdy dojde k~dodání méně materiálu, než je objednáno, tím pádem dochází k~celkovému posunutí harmonogramu, dochází k~nutnosti řešení shonu o~materiál, či jeho znovu dovezení do skladu nebo na místo určení.\par
+	Riziko s~nejnižší hodnotou RPN je, pokud dojde k~dodávce svítidel, kdy dojde k~dodávce poškozených svítidel, nebo se svítidla poškodí při jejich manipulaci či převozu. Toto riziko je velmi dobře detekovatelné a lze proti němu udělat potřebná opatření. Také naše firma vždy objednává nejméně o~20 \% více materiálu, pokud by došlo k~jeho zničení, poruše nebo k~dodání vadných kusů, je vždy k~dispozici jeho dostatečné použitelné množství.\par
+	Riziko s~druhým nejnižším RPN je v~části komunikace se zákazníkem, pokud zákazník s~námi nekomunikuje dle požadavků pro správný průběh projektu. Je to závažné riziko, ale jeho pravděpodobnost je nízká a detekovatelnost vysoká a problém relativně lehce řešitelný. Místo předem domluvené komunikace se může použít více komunikačních kanálů, kam patří také osobní kontakt. Není předpokládáno, že by se zákazník vzájemné komunikaci „vyhýbal“.
 	
 	\begin{table}[H]
 \resizebox{1 \textwidth}{!}
 		{
 		\begin{tabular}{!{\vrule width 2pt} c | c | c | c | c !{\vrule width 2pt}}\noalign{\hrule height 2pt}
-		\textbf{Projekt:} Rekonstrukce osvětlení a kabeláže garáži OC Trnávka 2021 & \textbf{Zpracoval:} Jan Hnát a Petr Zakopal & \textbf{Vytvořeno: }20.03.2021 & \textbf{Verze} 0.1 & \textbf{Kontrola:} Firma HnaZak\\\noalign{\hrule height 2pt}
+	\cellcolor{lightgray}	\textbf{Projekt:} Rekonstrukce osvětlení a kabeláže garáži OC Trnávka 2021 & \cellcolor{lightgray}\textbf{Zpracoval:} Jan Hnát a Petr Zakopal &\cellcolor{lightgray} \textbf{Vytvořeno: }20.03.2021 & \cellcolor{lightgray}\textbf{Verze} 0.1 & \cellcolor{lightgray}\textbf{Kontrola:} Firma HnaZak\\\noalign{\hrule height 2pt}
 		
 		\end{tabular}
 		}
@@ -955,7 +961,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		\caption{FMEAT, třídy: c - řiditelné, p - procedury, n - šum}
 		\label{tb:fmeat}
 		\end{table}
-		„Řiditelná“ třída rizika je faktor, ke kterému je možné přiřadit určitou hodnotu. Třída „procedura“ je standardizovaný sled událostí vedoucích k připravenosti jiného kroku. Třída označená „šum“ je faktur, jemuž nemůže být přiřazena žádná hodnota, je to vliv vyšší moci.
+		„Řiditelná“ třída rizika je faktor, ke kterému je možné přiřadit určitou hodnotu. Třída „procedura“ je standardizovaný sled událostí vedoucích k~připravenosti jiného kroku. Třída označená „šum“ je faktur, jemuž nemůže být přiřazena žádná hodnota, je to vliv vyšší moci.
 	
 \section{Odbavení a podpora}
 	\subsection{Plán odbavení}
