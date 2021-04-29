@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  29 APR 2021 21:02
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  29 APR 2021 21:46
  restricted system commands enabled.
 **tpr.tex
 (./tpr.tex
@@ -1910,6 +1910,10 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 \openout9 = tpr.lot
  [4]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 233--235
 
  []
@@ -1929,12 +1933,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--245
 
  []
 
+[2
 
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [3
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1]
+]
 
 Package fontspec Info: Could not resolve font "TimesNewRomanItalic/BI" (it
 (fontspec)             probably doesn't exist).
@@ -1964,7 +1970,7 @@ lt;"
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
+ [4]
 Overfull \hbox (34.32538pt too wide) in paragraph at lines 341--388
 [][] 
  []
@@ -1972,10 +1978,10 @@ Overfull \hbox (34.32538pt too wide) in paragraph at lines 341--388
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+ [5]
 Underfull \vbox (badness 3557) has occurred while \output is active []
 
- [4]
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 422--422
 []|\TU/TimesNewRoman(0)/m/n/10.95 ši-roké
  []
@@ -2110,13 +2116,13 @@ Underfull \hbox (badness 1939) in paragraph at lines 422--422
 \TU/TimesNewRoman(0)/m/n/10.95 pro-duktů od
  []
 
-[5] Excluding 'comment' comment.
+[7] Excluding 'comment' comment.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [9]
 Underfull \hbox (badness 5288) in paragraph at lines 555--555
 []|\TU/TimesNewRoman(0)/b/n/10.95 ob-jek-tivně ově-ři-telné uka-ze-
  []
@@ -2249,7 +2255,7 @@ Underfull \hbox (badness 6332) in paragraph at lines 555--555
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+ [10]
 Underfull \hbox (badness 5288) in paragraph at lines 592--592
 []|\TU/TimesNewRoman(0)/b/n/10.95 ob-jek-tivně ově-ři-telné uka-ze-
  []
@@ -2412,16 +2418,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 592--592
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [11]
 Underfull \vbox (badness 7613) has occurred while \output is active []
 
- [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [12]
+[13] [14
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 729--729
 []|\TU/TimesNewRoman(0)/m/n/10.95 Re-kon-strukce
  []
@@ -2629,12 +2637,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 729--729
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [16]
 Underfull \hbox (badness 10000) in paragraph at lines 745--758
 
  []
 
-[14]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 759--772
 
  []
@@ -2652,7 +2660,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 791--800
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 801--822
 
  []
@@ -2675,7 +2683,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 850--867
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 868--877
 
  []
@@ -2698,18 +2706,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [20]
 Overfull \hbox (3.35406pt too wide) in paragraph at lines 907--907
 []\TU/TimesNewRoman(1)/m/n/10.95 Z GANTT di-a-gramu je možné vi-dět, že pod-
 pis pře-dá-va-cího pro-to-kolu je na-plá-no-ván do dne 28.09.2021.
  []
 
-<files/gantt_half1.png, id=467, 2770.35pt x 1410.26875pt>
+<files/gantt_half1.png, id=480, 2770.35pt x 1410.26875pt>
 File: files/gantt_half1.png Graphic file (type png)
 <use files/gantt_half1.png>
 Package luatex.def Info: files/gantt_half1.png  used on input line 912.
 (luatex.def)             Requested size: 455.24411pt x 231.73747pt.
-<files/gantt_half2.png, id=468, 2770.35pt x 1410.26875pt>
+<files/gantt_half2.png, id=481, 2770.35pt x 1410.26875pt>
 File: files/gantt_half2.png Graphic file (type png)
 <use files/gantt_half2.png>
 Package luatex.def Info: files/gantt_half2.png  used on input line 919.
@@ -2717,7 +2725,7 @@ Package luatex.def Info: files/gantt_half2.png  used on input line 919.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18<./files/gantt_half1.png>]
+ [21<./files/gantt_half1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 960--960
 []|\TU/TimesNewRoman(0)/b/n/10.95 Funkční
  []
@@ -3460,11 +3468,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 931--961
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19<./files/gantt_half2.png>] [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [22<./files/gantt_half2.png>] [23] [24
 
- [21]
-[22]
+] [25
+
+]
 
 LaTeX Warning: Empty bibliography on input line 1008.
 
@@ -3485,23 +3493,23 @@ Package logreq Info: Writing requests to 'tpr.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48984 strings out of 478822
- 244164,2373549 words of node,token memory allocated
+ 48988 strings out of 478822
+ 244167,2373549 words of node,token memory allocated
  823 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 17 attribute, 105 g
 lue_spec, 10 attribute_list, 4 write nodes
-   avail lists: 1:17,2:6139,3:1298,4:205,5:1193,6:858,7:17126,8:98,9:7246,10:11,
+   avail lists: 1:7,2:6139,3:1298,4:206,5:1193,6:858,7:17128,8:104,9:7246,10:11,
 11:1792
- 66880 multiletter control sequences out of 65536+600000
+ 66881 multiletter control sequences out of 65536+600000
  89 fonts using 26039831 bytes
  87i,13n,85p,1843b,2050s stack positions out of 5000i,500n,10000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/
 Fonts/Supplemental/Times New Roman.ttf></System/Library/Fonts/Supplemental/Times
  New Roman Bold.ttf>
-Output written on tpr.pdf (26 pages, 712528 bytes).
+Output written on tpr.pdf (29 pages, 713103 bytes).
 
-PDF statistics: 529 PDF objects out of 1000 (max. 8388607)
- 477 compressed objects within 5 object streams
- 132 named destinations out of 1000 (max. 131072)
+PDF statistics: 542 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 135 named destinations out of 1000 (max. 131072)
  513 words of extra memory for PDF output out of 10000 (max. 100000000)
 
