@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  15 APR 2021 17:49
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.2.9)  29 APR 2021 21:02
  restricted system commands enabled.
 **tpr.tex
 (./tpr.tex
@@ -3498,7 +3498,7 @@ lue_spec, 10 attribute_list, 4 write nodes
 </System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></System/Library/
 Fonts/Supplemental/Times New Roman.ttf></System/Library/Fonts/Supplemental/Times
  New Roman Bold.ttf>
-Output written on tpr.pdf (26 pages, 712518 bytes).
+Output written on tpr.pdf (26 pages, 712528 bytes).
 
 PDF statistics: 529 PDF objects out of 1000 (max. 8388607)
  477 compressed objects within 5 object streams
