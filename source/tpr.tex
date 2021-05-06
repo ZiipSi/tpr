@@ -1,4 +1,4 @@
-	\documentclass[a4paper, twoside, 11pt]{article}
+\documentclass[a4paper, twoside, 11pt]{article}
 \usepackage{amsmath} %matematic package%
 \usepackage{textcomp} %for miscellaneous symbols%
 %\usepackage{times} %times font%
@@ -32,8 +32,10 @@
  
 %\usepackage[italic]{mathastext} %for text in math environment, better looking times then
 
+\usepackage{setspace}%spacing% 
+\onehalfspacing
 
-
+\usepackage{placeins}%% for \FloatBarrier command that blocks floating with htbp! go over \FloatBarrier
 %for CITATIONS URL to work, it is not needed when you are not using URL label%
 \usepackage{url}
 \usepackage{csquotes}
@@ -287,7 +289,7 @@
 		\subsubsection{Náklady}
 			Finance vyčleněné na tento projekt je nutné rozdělit na nákup materiálu a služeb, na legislativní úkony a na odměny pro zaměstnance. Náklady jsou částečně kryty z~fondu pro revitalizaci veřejně prospěšných objektů.
 			
-			\begin{table}[H]
+			\begin{table}[htbp!]
 				\begin{tabular}{ !{\vrule width 2pt} c | c | c | c  !{\vrule width 2pt}}\noalign{\hrule height 2pt}
 				položka & počet (ks, m) & cena 1 ks & cena (Kč)\\ \noalign{\hrule height 2pt}
 				projektant elektro &\multicolumn{2}{c|}{}& 32000\\ \hline
@@ -337,7 +339,7 @@
 			\caption{Rozpočet verze s~LED svítidly}
 			\end{table}
 			
-						\begin{table}[H]
+						\begin{table}[htbp!]
 				\begin{tabular}{ !{\vrule width 2pt} c | c | c | c  !{\vrule width 2pt}}\noalign{\hrule height 2pt}
 				položka & počet (ks, m) & cena 1 ks & cena (Kč)\\ \noalign{\hrule height 2pt}
 				projektant elektro &\multicolumn{2}{c|}{}& 32000\\ \hline
@@ -387,7 +389,7 @@
 				\end{tabular}
 			\caption{Rozpočet verze s~zářivkovými svítidly}
 			\end{table}
-		
+		\FloatBarrier
 		\subsubsection{Přínosy}
 			%Modernizované osvětlení a kabeláž bude vyhovovat normám a příslušným právním předpisů. Dojde ke zlepšení zrakového komfortu při pobytu v garážích. Nebude nutnost rekonstruovat osvětlení a kabeláž v garážích v tomto rozsahu po dobu minimálně 12 let.
 			Dojde k~získání dalších zkušeností s~prací uvnitř veřejně prospěšného objektu, kde není možné uzavřít celý areál. Akce rekonstrukce přínáší možnost objevu dalších nevyhovujících instalací v~OC Trnávka a navázání delší spolupráce v~rámci servisu a rekonstrukce.\par
@@ -400,7 +402,7 @@
 			%Dojde ke zvýšení spokojenosti zákazníků při návštěvě OC Trnávka. Vylepšená osvětlenost může nalákat podnitele, uvažující o provozování podnikatelské činnosti v podzemních garážích, např. mytí aut, autokosmetika, detailing apod.
 	\subsection{SWOT}	
 	
-	\begin{table}[H]
+	\begin{table}[htbp!]
 	\catcode`\-=12%aby fungovalo c-line v kategorii -= 12
 		\resizebox{1 \textwidth}{!}
 		{
@@ -423,7 +425,7 @@
 		\caption{Kvantitativní SWOT}\label{tab:swot}
 		\end{table}
 		
-
+\FloatBarrier
 		%rozepsání SWOT%
 		\subsubsection{Silné stránky}
 		Naše firma je na trhu již 20 let a za tu dobu si vybudovala tradici a získala četné reference v~oboru, je to naše velmi silná stránka. Protože se nespecializujeme na jednu část a své porfolio diverzifikujeme, je možné se uplatnit jak ve stavbě rodinných domů, tak v~průmyslových nebo VPO. Jsme zastánci kvalitního marketingu a proto se neustále zdokonalujeme v~rámci marketingu a snažíme se ho udržet na vysoké úrovni. Díky vývoji nástroje GTWD jsme vytvořili interní komunikační infrastrukturu, která nám umožňuje komunikovat efektivněji, než konkurenční firmy.	
@@ -517,7 +519,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 
 	\subsection{LogFrame - logický rámec projektu}\label{sec:logframe}
 			LogFrame je rozdělen na dvě stránky z~důvodu zlepšení čitelnosti jednotlivých prvků. \textit{Pozn. Byla přidána také ukázka klíčových aktivit z~důvodu procvičení, která nebyla v~projektu vyžadována}
-	\begin{table}[H]
+	\begin{table}[htbp!]
 	\centering
 		\resizebox{1 \textwidth}{!}
 		{
@@ -555,8 +557,8 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		}
 		\caption{LogFrame 1. část}
 		\end{table}
-		
-		\begin{table}[H]
+		\FloatBarrier
+		\begin{table}[htbp!]
 		\centering
 		\resizebox{1 \textwidth}{!}
 		{
@@ -592,8 +594,8 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		}
 		\caption{LogFrame 2. část}
 		\end{table}
-
-
+\FloatBarrier
+\newpage
 	\subsection{Plán metrik}\label{sec:plan_metrik}
 	
 		\begin{enumerate}
@@ -648,10 +650,10 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 	Skupiny „tým 1“ a „tým 2“ jsou prakticky identické, krom jednotlivých pracovníků. Pravidelně dochází ke střídání denních a nočních směn jednotlivých týmů tak, aby se rovnoměrně tyto směny rozložily. Nedochází k~přechodu pracovníků z~jednoho týmu do druhého, nebo pokud je to nutné, tak ve velmi omezené míře. Na začátku realizační fáze projektu budou vždy pracovníci 1 -6 pracovat na demontáži a montáži kabeláže, následně po určité době, kdy bude část instalace kabeláže dokončena, dojde k~tomu, že pracovníci 4 - 6 se oddělí a zajistí demontáž a montáž svítidel. Po dokončení instalace kabeláže se k~pracovníkům 4 - 6 přidají pracovníci 1 - 3.\par
 	Tým 3 je samostatná skupina zajišťující demontáž, montáž, nastavení a seřízení rozváděčů.\par
 	Poslední skupina pracovníků jsou ti, jež jsou nepostradatelní po celou dobu vytváření projektu. Krom tohoto projektu se mouhou podílet i na jiných, kde budou disponovat většinou podobnou nebo stejnou rolí.
-		\begin{table}[H]
+		\begin{table}[htbp!]
 	%\resizebox{1 \textwidth}{!}
 	%	{
-		
+			\centering
 			\begin{tabular}{ !{\vrule width 2pt} l !{\vrule width 2pt} }\noalign{\hrule height 2pt}
 				\textbf{role} \\ \noalign{\hrule height 2pt}
 				projektant elektro \\ \hline
@@ -692,9 +694,9 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 	%	}
 		\caption{Organizační struktura pracovníků podílejících se na projektu}
 		\end{table}
-		
+		\FloatBarrier
 	\subsubsection{Matice zodpovědnosti}
-		\begin{table}[H]
+		\begin{table}[htbp!]
 		\resizebox{1 \textwidth}{!}
 		{
 		
@@ -729,7 +731,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		}
 		\caption{Matice zodpovědnosti, p - provádí, o~- odpovědný, s~- schvaluje, k~- konzultant}
 		\end{table}
-	
+	\FloatBarrier
 	\subsection{Zajištění projektu}
 		K~počátečnímu plánování elektrických rozvodů a osvětlení je nutné vytvořit dokumentaci stávajícího stavu, který je nevyhovující a dle této vytvořené dokumentace vytvořit nový projekt elektroinstalace a osvětlení.
 		Je třeba zajistit vysokozdvižnou plošinu, která má dostatečně malé rozměry, aby byla schopná projet vjezdem do garáží. Také je nutnost zajistit kontejner na skladování nevyhovujících svítidel a kabeláže. K~montáži osvětlení je třeba klasických montážních nástrojů.\par
@@ -907,27 +909,27 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		Z~GANTT diagramu je možné vidět, že podpis předávacího protokolu je naplánován do dne 28.09.2021. Tudíž jsme vytvořili rezervu, která slouží při náhlých a nečekaných změnách v~harmonogramu pro pokrytí nečekaných časových výdajů.\par
 		GANTT diagram je rozdělen do dvou částí z~důvodu zvýšení čitelnosti jednotlivých prvků.
 		
-		\begin{figure}[H]
+		\begin{figure}[htbp!]
  				\centering
  				\includegraphics[width=1\textwidth]{files/gantt_half1.png} 
 				\caption{GANTT 1. část}
 				\label{fig:gantt_half1}
  		\end{figure}			
  		
- 		\begin{figure}[H]
+ 		\begin{figure}[htbp!]
  				\centering
  				\includegraphics[width=1\textwidth]{files/gantt_half2.png} 
 				\caption{GANTT 2. část}
 				\label{fig:gantt_half2}
  		\end{figure}			
-		
+		\FloatBarrier
 	\subsection{Analýza rizik}
 	K~analýze ryzik byla použita metoda FMEA Table. Na Tab. \ref{tb:fmeat} je možné pozorovat tabulku vyhodnocení rizik pomocí RPN. \par
 	Nejvyšší hodnota RPN byla přiřazena k~riziku funkčního procesu - dodávka materiálu, kdy dojde k~dodání méně materiálu, než je objednáno, tím pádem dochází k~celkovému posunutí harmonogramu, dochází k~nutnosti řešení shonu o~materiál, či jeho znovu dovezení do skladu nebo na místo určení.\par
 	Riziko s~nejnižší hodnotou RPN je, pokud dojde k~dodávce svítidel, kdy dojde k~dodávce poškozených svítidel, nebo se svítidla poškodí při jejich manipulaci či převozu. Toto riziko je velmi dobře detekovatelné a lze proti němu udělat potřebná opatření. Také naše firma vždy objednává nejméně o~20 \% více materiálu, pokud by došlo k~jeho zničení, poruše nebo k~dodání vadných kusů, je vždy k~dispozici jeho dostatečné použitelné množství.\par
 	Riziko s~druhým nejnižším RPN je v~části komunikace se zákazníkem, pokud zákazník s~námi nekomunikuje dle požadavků pro správný průběh projektu. Je to závažné riziko, ale jeho pravděpodobnost je nízká a detekovatelnost vysoká a problém relativně lehce řešitelný. Místo předem domluvené komunikace se může použít více komunikačních kanálů, kam patří také osobní kontakt. Není předpokládáno, že by se zákazník vzájemné komunikaci „vyhýbal“.
 	
-	\begin{table}[H]
+	\begin{table}[htbp!]
 \resizebox{1 \textwidth}{!}
 		{
 		\begin{tabular}{!{\vrule width 2pt} c | c | c | c | c !{\vrule width 2pt}}\noalign{\hrule height 2pt}
@@ -962,7 +964,7 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 		\label{tb:fmeat}
 		\end{table}
 		„Řiditelná“ třída rizika je faktor, ke kterému je možné přiřadit určitou hodnotu. Třída „procedura“ je standardizovaný sled událostí vedoucích k~připravenosti jiného kroku. Třída označená „šum“ je faktur, jemuž nemůže být přiřazena žádná hodnota, je to vliv vyšší moci.
-	
+	\FloatBarrier
 \section{Odbavení a podpora}
 	\subsection{Plán odbavení}
 	 Před podpisem proběhne maximálně třídenní školení pracovníků klienta ohledně ovládacího a monitorovacího SW osvětlení a rozvaděčů. Proběhne také potřebná instruktáž ohledně instalovaného zařízení.\par
@@ -1000,8 +1002,8 @@ Ačkoliv nejsme výrobci látek jako např. odmašťovadel, laků, barev, absorb
 	V~matici zodpovědnosti by bylo taktéž možné vytvořit více činností a přiřadit je k~jednotlivým pracovníkům. Tyto činnosti by bylo možné zahrnout v~případě možných zkušeností s~realizací podobných projektů. Tudíž by se mohlo jednat o~znovupoužitelný artefakt.\par
 	Znovupoužitelných artefaktů při virtuálním řešení nebylo příliš představeno. Určitě by bylo možné zahrnout další jako například katalogy svítidel, znovupoužitelný materiál jako jsou nástroje, spojovací či jiný konstrukční materiál.\par
 	Plán odstavení je velmi neurčitý. Záleží na výběru svítidel, pokud by byly skutečně vybrány LED svítidla, bylo by nutné řešit výměnu modulů, přičemž vybraná svítidla výměnu pouze modulů neumožňují. Tudíž by bylo nutné vybrat jiná svítidla, nebo zvolit jiný způsob. Proto není možné odhadnout odstavení této světelné instalace. Při předpokládaném využití a nenastání žádných nepředpokládaných událosté má kabeláž mnohonásobně delší životnost, opět nejsme bez zkušeností schopni určit jakou.
-		
-	\vspace*{11pt}
+		\newpage
+	
 		Projektová dokumentace, prezentace a přílohy jsou volně dostupné v~průběhu  letního semestru 2021 na webové adrese \url{https://ptzk.cz/tpr} a slouží pouze ke studijním účelům. Jakékoliv kopírování a šíření díla bez předchozího souhlasu autorů je zakázáno. Výjimku tvoří citace.
 
 \newpage

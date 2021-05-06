@@ -24,9 +24,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}SMART}{3}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.1}Specific}{3}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1}Specific}{4}{subsubsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2}Measurable}{3}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2}Measurable}{4}{subsubsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.3}Aligned}{4}{subsubsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
@@ -38,7 +38,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.1}Náklady}{4}{subsubsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.2}Přínosy}{6}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2}Přínosy}{7}{subsubsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6}SWOT}{7}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
@@ -46,7 +46,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.6.2}Slabé stránky}{7}{subsubsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.6.3}Příležitosti}{7}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.3}Příležitosti}{8}{subsubsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.6.4}Threats}{8}{subsubsection.3.6.4}%
 \defcounter {refsection}{0}\relax 
@@ -56,11 +56,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.7.1}Konkurence}{8}{subsubsection.3.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.7.2}Síly dodavatelů}{8}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2}Síly dodavatelů}{9}{subsubsection.3.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.7.3}Síly odběratelů}{8}{subsubsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.3}Síly odběratelů}{9}{subsubsection.3.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.7.4}Substituté}{8}{subsubsection.3.7.4}%
+\contentsline {subsubsection}{\numberline {3.7.4}Substituté}{9}{subsubsection.3.7.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.7.5}Nově příchozí}{9}{subsubsection.3.7.5}%
 \defcounter {refsection}{0}\relax 
@@ -68,54 +68,54 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.8.1}Politicko - Právní okolí}{9}{subsubsection.3.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.8.2}Ekonomické okolí}{9}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2}Ekonomické okolí}{10}{subsubsection.3.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.8.3}Sociálně - kulturní okolí}{9}{subsubsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.3}Sociálně - kulturní okolí}{10}{subsubsection.3.8.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.8.4}Techologické okolí}{10}{subsubsection.3.8.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.8.5}Ekologické vlivy}{10}{subsubsection.3.8.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.8.6}Legislativní vlivy}{10}{subsubsection.3.8.6}%
+\contentsline {subsubsection}{\numberline {3.8.6}Legislativní vlivy}{11}{subsubsection.3.8.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9}LogFrame - logický rámec projektu}{10}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.9}LogFrame - logický rámec projektu}{11}{subsection.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.10}Plán metrik}{12}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.10}Plán metrik}{14}{subsection.3.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Úvodní studie}{14}{section.4}%
+\contentsline {section}{\numberline {4}Úvodní studie}{15}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Funkční požadavky}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Funkční požadavky}{15}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Nefunkční požadavky}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Nefunkční požadavky}{15}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Návrh řešení a volba z~alternativ}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Návrh řešení a volba z~alternativ}{15}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Realizace}{15}{section.5}%
+\contentsline {section}{\numberline {5}Realizace}{16}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Organizační struktura, team a role}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Organizační struktura, team a role}{16}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Matice zodpovědnosti}{17}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Matice zodpovědnosti}{18}{subsubsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Zajištění projektu}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Zajištění projektu}{18}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Školení}{17}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}Školení}{18}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}WBS}{18}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.4}WBS}{19}{subsection.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}GANTT}{20}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.5}GANTT}{22}{subsection.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6}Analýza rizik}{22}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.6}Analýza rizik}{23}{subsection.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Odbavení a podpora}{24}{section.6}%
+\contentsline {section}{\numberline {6}Odbavení a podpora}{26}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Plán odbavení}{24}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.1}Plán odbavení}{26}{subsection.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Plán podpory}{24}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Plán podpory}{26}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Plán odstavení}{24}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.3}Plán odstavení}{26}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Vyhodnocení projektu}{25}{section.7}%
+\contentsline {section}{\numberline {7}Vyhodnocení projektu}{27}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Znovupoužitelné artefakty}{25}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.1}Znovupoužitelné artefakty}{27}{subsection.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Zhodnocení tvořitelů}{25}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.2}Zhodnocení tvořitelů}{27}{subsection.7.2}%
